@@ -1,0 +1,5 @@
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.deps.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csprojAssemblyReference.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfoInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfo.cs
