@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ou4OYPm53mVP7rG7BFDbf1so+UQ1UIBbpPyljWZng2L4FIe7IqkL5nfJkaD4WZLVk8HJ3aB46MCmMwkXN1b0bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joeps\\source\\repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joeps\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\joeps\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
