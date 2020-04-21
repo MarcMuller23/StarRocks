@@ -45,5 +45,38 @@ namespace StarRocks.Data.Handlers
             }
             return Events;
         }
+        public void CreateEvent(Event E1)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = $"INSERT INTO event VALUES({E1.ID},{E1.AccountID}, {E1.CategoryID},{E1.Name},{E1.Description},{E1.Date},{E1.Location},{E1.MaxCapacity}; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+        public void UpdateEvent(Event E1)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = $"UPDATE werknemer SET Name = {E1.Name}, Description = {E1.Description}, Date={E1.Date},Location={E1.Location},MaxCapacity={E1.MaxCapacity} WHERE ID={E1.ID}; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+        public void DeleteEvent(int ID)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = $"DELETE FROM event WHERE ID={ID}";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }
