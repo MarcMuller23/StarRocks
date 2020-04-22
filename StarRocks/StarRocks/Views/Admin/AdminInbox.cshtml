@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul class="AdminNav">
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminEvents">Events</a></li>
+</ul>
+<ul class="AdminEmail">
+    <li class="EmailList"><a class="EmailLink2" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminFav">Favorieten</a></li>
+    <li class="EmailList"><a class="EmailLink3" asp-area="" asp-controller="Admin" asp-action="AdminMaps">Mappen</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminSent">Verzonden</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminTrash">Prullenbak</a></li>
+</ul>
+<div class="Mail" onclick="myFunction()">
+    <h2 class="EmailName">Bas</h2>
+    <h2 class="EmailDate">20-04-2020</h2>
+    <p class="EmailSubject">Aanvraag event</p>
+</div>
+<div class="Mail2" onclick="myFunction()">
+    <h2 class="EmailName">Bas</h2>
+    <h2 class="EmailDate">20-04-2020</h2>
+    <p class="EmailSubject">Aanvraag event</p>
+</div>
+<div class="Mail3" onclick="myFunction()">
+    <h2 class="EmailName">Bas</h2>
+    <h2 class="EmailDate">20-04-2020</h2>
+    <p class="EmailSubject">Aanvraag event</p>
+</div>
+
+<div id="myDIV">
+    <h4 class="email">Bas</h4>
+    <h3 class="email">Aanvraag event</h3>
+    <h6 class="email">20-04-2020</h6><br><br />
+    <p class="email">Ik wil een event plaatsen op 18-05-2020</p>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>

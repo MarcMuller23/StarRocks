@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-5 AdminTitle">Events List</h1>
+<ul class="AdminNav">
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminEvents">Events</a></li>
+</ul>
+
+<script language="javascript">
+    function toggle(source) {
+        checkboxes = document.getElementsByName('foo');
+        for (var i = 0, n = checkboxes.length; i < n; i++) {
+            checkboxes[i].checked = source.checked;
+        }
+    }
+</script>
+
+<div class="EventsTable">
+    <table id="myTable">
+        <tr>
+            <th class="CheckEvent"><input class="CheckEvent" type="checkbox" onClick="toggle(this)" /></th>
+            <th>Event</th>
+            <th>Gepland voor</th>
+            <th>status</th>
+            <th>bezoekers</th>
+        </tr>
+        <tr>
+            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar1"></td>
+            <td>C#</td>
+            <td>20-04-2020</td>
+            <td>Gepland</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar2"></td>
+            <td>Java</td>
+            <td>08-04-2020</td>
+            <td>Canceled</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar3"></td>
+            <td>Python</td>
+            <td>24-04-2020</td>
+            <td>Verplaatst</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar4"></td>
+            <td>Javascript</td>
+            <td>17-05-2020</td>
+            <td>Complete</td>
+            <td>30</td>
+        </tr>
+    </table>
+</div>
+
+<div class="AddEvents">
+    <label for="Eventname">Event</label><br />
+    <input type="text" id="EventName" /><br /><br />
+    <label for="EventDate">Gepland voor</label><br />
+    <input type="text" id="EventDate" /><br /><br />
+
+    <input type="submit" class="AddEvent" value="Event toevoegen">
+</div>

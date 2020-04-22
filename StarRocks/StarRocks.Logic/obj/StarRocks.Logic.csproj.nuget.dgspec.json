@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {}
+    "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {}
   },
   "projects": {
-    "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
+    "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
         "projectName": "StarRocks.Logic",
-        "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
-        "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\obj\\",
+        "projectPath": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+        "packagesPath": "C:\\Users\\kmlvd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Logic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kmlvd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

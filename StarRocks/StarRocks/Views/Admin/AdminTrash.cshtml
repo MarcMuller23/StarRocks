@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul class="AdminNav">
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminEvents">Events</a></li>
+</ul>
+<ul class="AdminEmail">
+    <li class="EmailList"><a class="EmailLink2" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminFav">Favorieten</a></li>
+    <li class="EmailList"><a class="EmailLink3" asp-area="" asp-controller="Admin" asp-action="AdminMaps">Mappen</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminSent">Verzonden</a></li>
+    <li class="EmailList"><a class="EmailLink" asp-area="" asp-controller="Admin" asp-action="AdminTrash">Prullenbak</a></li>
+</ul>
+<h2 class="EmailTrash">Nothing to see here</h2>
