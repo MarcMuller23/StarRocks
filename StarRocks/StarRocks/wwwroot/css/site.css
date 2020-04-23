@@ -392,3 +392,27 @@ tr:nth-child(even) {
     left: 450px;
     top: 100px;
 }
+
+label.Achtertext {
+    font-size: 20px;
+    margin-left: 125px;
+}
+
+input.RegistreerBtn {
+    height: 50px;
+    width: 426px;
+    background-color: gold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.registerimput {
+    width: 426px;
+}
+
+#Anaam {
+    width: 213px;
+}
+
+#Vnaam {
+    width: 213px;
+}
