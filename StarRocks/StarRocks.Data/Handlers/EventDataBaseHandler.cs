@@ -18,8 +18,6 @@ namespace StarRocks.Data.Handlers
         {
 
         }
-
-        //READ
         public List<Event> GetAllEvents()
         {
             List<Event> Events = new List<Event>();
@@ -47,41 +45,53 @@ namespace StarRocks.Data.Handlers
             }
             return Events;
         }
-
-        //CREATE
         public void CreateEvent(Event E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"INSERT INTO event VALUES({E1.ID},{E1.AccountID}, {E1.CategoryID},{E1.Name},{E1.Description},{E1.Date},{E1.Location},{E1.MaxCapacity}; ";
+                string query = $"INSERT INTO event VALUES(@ID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity; ";
+
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    command.Parameters.AddWithValue("@ID", E1.AccountID);
+                    command.Parameters.AddWithValue("@Catagory", E1.CategoryID);
+                    command.Parameters.AddWithValue("@Name", E1.Name);
+                    command.Parameters.AddWithValue("@Description", E1.Description);
+                    command.Parameters.AddWithValue("@Date", E1.Date);
+                    command.Parameters.AddWithValue("@Location", E1.Location);
+                    command.Parameters.AddWithValue("@MaxCapacity", E1.MaxCapacity);
+
+
                     command.ExecuteNonQuery();
                 }
             }
         }
-
-        //UPDATE
         public void UpdateEvent(Event E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"UPDATE werknemer SET Name = {E1.Name}, Description = {E1.Description}, Date={E1.Date},Location={E1.Location},MaxCapacity={E1.MaxCapacity} WHERE ID={E1.ID}; ";
+                string query = $"UPDATE werknemer SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    command.Parameters.AddWithValue("@ID", E1.AccountID);
+                    command.Parameters.AddWithValue("@Catagory", E1.CategoryID);
+                    command.Parameters.AddWithValue("@Name", E1.Name);
+                    command.Parameters.AddWithValue("@Description", E1.Description);
+                    command.Parameters.AddWithValue("@Date", E1.Date);
+                    command.Parameters.AddWithValue("@Location", E1.Location);
+                    command.Parameters.AddWithValue("@MaxCapacity", E1.MaxCapacity);
                     command.ExecuteNonQuery();
                 }
             }
         }
-
-        //DELETE
         public void DeleteEvent(int ID)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"DELETE FROM event WHERE ID={ID}";
+                string query = $"DELETE FROM event WHERE ID=@ID";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    command.Parameters.AddWithValue("@ID", ID);
                     command.ExecuteNonQuery();
                 }
             }
