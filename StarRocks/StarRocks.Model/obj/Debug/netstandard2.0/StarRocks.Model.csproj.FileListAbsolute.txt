@@ -1,0 +1,5 @@
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Model\bin\Debug\netstandard2.0\StarRocks.Model.deps.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Model\bin\Debug\netstandard2.0\StarRocks.Model.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Model\obj\Debug\netstandard2.0\StarRocks.Model.csprojAssemblyReference.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Model\obj\Debug\netstandard2.0\StarRocks.Model.AssemblyInfoInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Model\obj\Debug\netstandard2.0\StarRocks.Model.AssemblyInfo.cs

@@ -1,0 +1,5 @@
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.deps.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csprojAssemblyReference.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfoInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfo.cs

@@ -18,6 +18,8 @@ namespace StarRocks.Data.Handlers
         {
 
         }
+
+        //READ
         public List<Event> GetAllEvents()
         {
             List<Event> Events = new List<Event>();
@@ -45,6 +47,8 @@ namespace StarRocks.Data.Handlers
             }
             return Events;
         }
+
+        //CREATE
         public void CreateEvent(Event E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
@@ -56,6 +60,8 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
+
+        //UPDATE
         public void UpdateEvent(Event E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
@@ -67,6 +73,8 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
+
+        //DELETE
         public void DeleteEvent(int ID)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
