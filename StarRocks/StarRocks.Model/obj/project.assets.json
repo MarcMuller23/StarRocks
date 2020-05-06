@@ -180,27 +180,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kmlvd\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\marc_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
+      "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
       "projectName": "StarRocks.Model",
-      "projectPath": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
-      "packagesPath": "C:\\Users\\kmlvd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Model\\obj\\",
+      "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
+      "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kmlvd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
