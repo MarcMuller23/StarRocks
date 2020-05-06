@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1vIwRVVfbXtmsYM+CAvZjOf9rwUjCJfgi543so5y1Mfis5d2+/AuFUs3r9+eQIM6t5L5sNBAgsbsEt4Z8T4pqw==",
+  "dgSpecHash": "12HAciakwxwsmZrDPRKc6Kb3Uvg9RumItqUQ5B3crFLYlEzxaH/3SACqJ00JZRmbUAnEvGPKWVA+I968LDi0zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmlvd\\source\\repos\\StarRocks\\Git1\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
+  "projectFilePath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Model\\StarRocks.Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\marc_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\marc_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
