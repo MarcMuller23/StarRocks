@@ -6,6 +6,7 @@ namespace StarRocks.Interfaces
 {
     public interface IAccount
     {
+        int ID { get; set; }
         string FirstName { get; set; }
         string Preposition { get; set; }
         string LastName { get; set; }

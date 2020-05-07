@@ -6,6 +6,7 @@ namespace StarRocks.Interfaces
 {
     public interface ICategorie
     {
+        int ID { get; set; }
         int AccountID { get; set; }
         string Name { get; set; }
         string Description { get; set; }

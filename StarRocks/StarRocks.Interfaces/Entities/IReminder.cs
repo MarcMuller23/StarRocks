@@ -6,8 +6,8 @@ namespace StarRocks.Interfaces.Entities
 {
     public interface IReminder
     {
-        
-         int EventID { get; set; }
+        int ID { get; set; }
+        int EventID { get; set; }
          DateTime Date { get; set; }
          string Message { get; set; }
     }

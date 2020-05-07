@@ -6,8 +6,9 @@ namespace StarRocks.Interfaces.Entities
 {
     public interface IReview
     {
-        
-         int EventID { get; set; }
+        int ID { get; set; }
+
+        int EventID { get; set; }
          int AccountID { get; set; }
          int Rating { get; set; }
          string Message { get; set; }

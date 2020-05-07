@@ -6,7 +6,7 @@ namespace StarRocks.Interfaces.Entities
 {
    public interface IEventRegistration
     {
-         int EventID { get; set; }
-         int AccountID { get; set; }
+        int EventID { get; set; }
+        int AccountID { get; set; }
     }
 }

@@ -6,8 +6,9 @@ namespace StarRocks.Interfaces.Entities
 {
     public interface INewsMessage
     {
-       
-         int AccountID { get; set; }
+        int ID { get; set; }
+
+        int AccountID { get; set; }
          string Title { get; set; }
          string Message { get; set; }
     }

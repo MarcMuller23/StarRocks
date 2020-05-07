@@ -6,6 +6,7 @@ namespace StarRocks.Interfaces
 {
     public interface IEvent
     {
+        int ID { get; set; }
         int AccountID { get; set; }
         int CategoryID { get; set; }
         string Name { get; set; }

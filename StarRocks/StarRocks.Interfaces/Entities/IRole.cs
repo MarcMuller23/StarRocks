@@ -6,7 +6,7 @@ namespace StarRocks.Interfaces.Entities
 {
     public interface IRole
     {
-         
-         string Role_Description { get; set; }
+        int ID { get; set; }
+        string Role_Description { get; set; }
     }
 }
