@@ -43,7 +43,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO Categorie_Interest VALUES( @CategorieID,@AccountID,@EventPoint,@Password,@PhoneNumber,@Street,@HouseNumber,@Addition,@PostalCode,@City,@Birthdate; ";
+                string query = "INSERT INTO Categorie_Interest VALUES( @CategorieID,@AccountID,@EventPoint,@Password,@PhoneNumber,@Street,@HouseNumber,@Addition,@PostalCode,@City,@Birthdate); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

@@ -50,7 +50,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO reminder VALUES(@EventID, @Date,@Message; ";
+                string query = "INSERT INTO reminder VALUES(@EventID, @Date,@Message); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
