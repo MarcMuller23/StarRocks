@@ -49,11 +49,11 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"INSERT INTO event VALUES(@ID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity; ";
+                string query = "INSERT INTO event VALUES(@AccountID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity; ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
-                    command.Parameters.AddWithValue("@ID", E1.AccountID);
+                    command.Parameters.AddWithValue("@AccountID", E1.AccountID);
                     command.Parameters.AddWithValue("@Catagory", E1.CategoryID);
                     command.Parameters.AddWithValue("@Name", E1.Name);
                     command.Parameters.AddWithValue("@Description", E1.Description);
@@ -70,7 +70,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"UPDATE werknemer SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
+                string query = "UPDATE werknemer SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@ID", E1.AccountID);
@@ -88,7 +88,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = $"DELETE FROM event WHERE ID=@ID";
+                string query = "DELETE FROM event WHERE ID=@ID";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@ID", ID);
