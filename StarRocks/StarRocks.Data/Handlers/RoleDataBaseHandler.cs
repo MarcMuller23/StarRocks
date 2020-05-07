@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces.Entities;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    public class RoleDataBaseHandler
+    public class RoleDataBaseHandler:IRoleDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -21,9 +23,9 @@ namespace StarRocks.Data.Handlers
         }
 
         //Read in CRUD
-        public List<Role> GetAllRoles()
+        public List<IRole> GetAllRoles()
         {
-            List<Role> roles = new List<Role>();
+            List<IRole> roles = new List<IRole>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM role";
@@ -45,7 +47,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Create in CRUD
-        public void CreateRole(Role R1)
+        public void CreateRole(IRole R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -61,13 +63,14 @@ namespace StarRocks.Data.Handlers
         }
 
         //Update in CRUD
-        public void UpdateRole(Role R1)
+        public void UpdateRole(IRole R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "UPDATE role SET Role_Description = @Role_Description WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    command.Parameters.AddWithValue("@ID", R1.ID);
                     command.Parameters.AddWithValue("@Role_Description", R1.Role_Description);
 
                     command.ExecuteNonQuery();

@@ -1,0 +1,9 @@
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.deps.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csprojAssemblyReference.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csproj.CoreCompileInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfoInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.pdb

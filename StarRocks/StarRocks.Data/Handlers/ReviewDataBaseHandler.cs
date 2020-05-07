@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces.Entities;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    public class ReviewDataBaseHandler
+    public class ReviewDataBaseHandler : IReviewDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -21,9 +23,9 @@ namespace StarRocks.Data.Handlers
         }
 
         //Read in CRUD
-        public List<Review> GetAllReviews()
+        public List<IReview> GetAllReviews()
         {
-            List<Review> reviews = new List<Review>();
+            List<IReview> reviews = new List<IReview>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM review";
@@ -48,7 +50,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Create in CRUD
-        public void CreateReview(Review R1)
+        public void CreateReview(IReview R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -67,13 +69,14 @@ namespace StarRocks.Data.Handlers
         }
 
         //Update in CRUD
-        public void UpdateReview(Review R1)
+        public void UpdateReview(IReview R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "UPDATE review SET EventID = @EventID, AccountID = @AccountID, Rating=@Rating,Message=@Message WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    command.Parameters.AddWithValue("@ID", R1.ID);
                     command.Parameters.AddWithValue("@EventID", R1.EventID);
                     command.Parameters.AddWithValue("@AccountID", R1.AccountID);
                     command.Parameters.AddWithValue("@Rating", R1.Rating);
@@ -85,7 +88,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Delete in CRUD
-        public void DeleteReminder(int ID)
+        public void DeleteReview(int ID)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

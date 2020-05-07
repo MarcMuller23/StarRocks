@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces.Entities;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    public class ReminderDataBaseHandler
+    public class ReminderDataBaseHandler:IReminderDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -20,9 +22,9 @@ namespace StarRocks.Data.Handlers
         }
 
         //Read in CRUD
-        public List<Reminder> GetAllReminders()
+        public List<IReminder> GetAllReminders()
         {
-            List<Reminder> reminders = new List<Reminder>();
+            List<IReminder> reminders = new List<IReminder>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM reminder";
@@ -46,7 +48,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Create in CRUD
-        public void CreateReminder(Reminder R1)
+        public void CreateReminder(IReminder R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -64,7 +66,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Update in CRUD
-        public void UpdateReminder(Reminder R1)
+        public void UpdateReminder(IReminder R1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

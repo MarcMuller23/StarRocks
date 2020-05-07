@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces.Entities;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    public class NewsMessageDataBaseHandler
+    public class NewsMessageDataBaseHandler:INewsMessageDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -21,9 +23,9 @@ namespace StarRocks.Data.Handlers
         }
 
         //Read in CRUD
-        public List<NewsMessage> GetAllNewsMessages()
+        public List<INewsMessage> GetAllNewsMessages()
         {
-            List<NewsMessage> Events = new List<NewsMessage>();
+            List<INewsMessage> Events = new List<INewsMessage>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM newsmessage";
@@ -45,7 +47,7 @@ namespace StarRocks.Data.Handlers
             return Events;
         }
         //Create in CRUD
-        public void CreateNewsMessage(NewsMessage NM1)
+        public void CreateNewsMessage(INewsMessage NM1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -63,7 +65,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Update in CRUD
-        public void UpdateNewsMessage(NewsMessage NM1)
+        public void UpdateNewsMessage(INewsMessage NM1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
