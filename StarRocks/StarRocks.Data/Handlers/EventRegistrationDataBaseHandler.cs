@@ -63,7 +63,7 @@ namespace StarRocks.Data.Handlers
         }
 
         //Update in CRUD
-        public void UpdateEventRegistration(EventRegistration E1)
+        public void UpdateEventRegistration(IEventRegistration E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

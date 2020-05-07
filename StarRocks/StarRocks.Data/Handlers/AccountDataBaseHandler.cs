@@ -76,7 +76,7 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
-        public void UpdateAccount(Account A1)
+        public void UpdateAccount(IAccount A1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

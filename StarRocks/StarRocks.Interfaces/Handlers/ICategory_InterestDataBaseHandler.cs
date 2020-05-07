@@ -10,7 +10,7 @@ namespace StarRocks.Interfaces.Handlers
 
         void CreateCategorie_Interest(ICategorie_Interest CI1);
 
-        void UpdateCategorie_Interest(Categorie_Interest CI1);
+        void UpdateCategorie_Interest(ICategorie_Interest CI1);
 
         void DeleteCategorie_Interest(int ID);
     }

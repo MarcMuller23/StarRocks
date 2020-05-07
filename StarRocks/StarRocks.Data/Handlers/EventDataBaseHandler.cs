@@ -68,7 +68,7 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
-        public void UpdateEvent(Event E1)
+        public void UpdateEvent(IEvent E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

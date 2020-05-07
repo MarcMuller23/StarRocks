@@ -9,7 +9,7 @@ namespace StarRocks.Interfaces.Handlers
 
         void CreateAccount(IAccount A1);
 
-        void UpdateAccount(Account A1);
+        void UpdateAccount(IAccount A1);
 
         void DeleteAccount(int ID);
     }

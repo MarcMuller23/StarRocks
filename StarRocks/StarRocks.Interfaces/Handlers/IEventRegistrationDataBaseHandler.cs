@@ -11,7 +11,7 @@ namespace StarRocks.Interfaces.Handlers
 
         void CreateEventRegistration(IEventRegistration E1);
 
-        void UpdateEventRegistration(EventRegistration E1);
+        void UpdateEventRegistration(IEventRegistration E1);
 
         void DeleteEventRegistration(int ID);
     }

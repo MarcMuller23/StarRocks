@@ -10,7 +10,7 @@ namespace StarRocks.Interfaces.Handlers
 
         void CreateEvent(ICategorie C1);
 
-        void UpdateEvent(Categorie C1);
+        void UpdateEvent(ICategorie C1);
 
         void DeleteEvent(int ID);
     }

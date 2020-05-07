@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Handlers;
 using System.Collections.Generic;
 
@@ -14,9 +15,9 @@ namespace StarRocks.Data.Handlers
             connectionString = constring;
         }
 
-        public List<Categorie> GetAllCatagory()
+        public List<ICategorie> GetAllCatagory()
         {
-            List<Categorie> Categories = new List<Categorie>();
+            List<ICategorie> Categories = new List<ICategorie>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM Categorie";
@@ -37,7 +38,7 @@ namespace StarRocks.Data.Handlers
             }
             return Categories;
         }
-        public void CreateEvent(Categorie C1)
+        public void CreateEvent(ICategorie C1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -52,7 +53,7 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
-        public void UpdateEvent(Categorie C1)
+        public void UpdateEvent(ICategorie C1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

@@ -41,7 +41,7 @@ namespace StarRocks.Data.Handlers
             }
             return Categorie_Interests;
         }
-        public void CreateCategorie_Interest(Categorie_Interest CI1)
+        public void CreateCategorie_Interest(ICategorie_Interest CI1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -57,7 +57,7 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
-        public void UpdateCategorie_Interest(Categorie_Interest CI1)
+        public void UpdateCategorie_Interest(ICategorie_Interest CI1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
