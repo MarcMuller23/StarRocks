@@ -1087,6 +1087,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "StarRocks.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MySql.Data": "8.0.20",
+          "StarRocks.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StarRocks.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StarRocks.Data.dll": {}
+        }
+      },
+      "StarRocks.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/StarRocks.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StarRocks.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -4517,28 +4541,40 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "StarRocks.Data/1.0.0": {
+      "type": "project",
+      "path": "../StarRocks.Data/StarRocks.Data.csproj",
+      "msbuildProject": "../StarRocks.Data/StarRocks.Data.csproj"
+    },
+    "StarRocks.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../StarRocks.Interfaces/StarRocks.Interfaces.csproj",
+      "msbuildProject": "../StarRocks.Interfaces/StarRocks.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "MySql.Data >= 8.0.20",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "StarRocks.Data >= 1.0.0",
+      "StarRocks.Interfaces >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marc_\\.nuget\\packages\\": {}
+    "C:\\Users\\joeps\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
       "projectName": "StarRocks.Logic",
-      "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
-      "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\obj\\",
+      "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+      "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4550,7 +4586,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj": {
+              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj"
+            },
+            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4583,7 +4626,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

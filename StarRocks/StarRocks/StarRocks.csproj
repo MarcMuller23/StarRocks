@@ -8,6 +8,11 @@
     <PackageReference Include="MySql.Data" Version="8.0.20" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StarRocks.Interfaces\StarRocks.Interfaces.csproj" />
+    <ProjectReference Include="..\StarRocks.Logic\StarRocks.Logic.csproj" />
+  </ItemGroup>
+
 
 
 </Project>
