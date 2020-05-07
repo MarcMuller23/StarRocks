@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
+using StarRocks.Interfaces.Handlers;
 
 namespace StarRocks.Data.Handlers
 {
-    public class EventDataBaseHandler
+    public class EventDataBaseHandler : IEventDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -18,9 +20,9 @@ namespace StarRocks.Data.Handlers
         {
 
         }
-        public List<Event> GetAllEvents()
+        public List<IEvent> GetAllEvents()
         {
-            List<Event> Events = new List<Event>();
+            List<IEvent> Events = new List<IEvent>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM event";
@@ -45,7 +47,7 @@ namespace StarRocks.Data.Handlers
             }
             return Events;
         }
-        public void CreateEvent(Event E1)
+        public void CreateEvent(IEvent E1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

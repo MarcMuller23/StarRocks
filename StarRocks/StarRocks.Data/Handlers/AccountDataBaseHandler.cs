@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    class AccountDataBaseHandler
+    class AccountDataBaseHandler : IAccountDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -15,9 +17,9 @@ namespace StarRocks.Data.Handlers
             connectionString = constring;
         }
        
-        public List<Account> GetAllAccounts()
+        public List<IAccount> GetAllAccounts()
         {
-            List<Account> Accounts = new List<Account>();
+            List<IAccount> Accounts = new List<IAccount>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM account";
@@ -47,7 +49,7 @@ namespace StarRocks.Data.Handlers
             }
             return Accounts;
         }
-        public void CreateAccount(Account A1)
+        public void CreateAccount(IAccount A1)
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {

@@ -1,10 +1,11 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces.Handlers;
 using System.Collections.Generic;
 
 namespace StarRocks.Data.Handlers
 {
-    class CatagoryDataBaseHandler
+    class CatagoryDataBaseHandler : ICategoryDataBaseHandler
     {
         private static string connectionString = "";
 

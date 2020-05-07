@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
+using StarRocks.Interfaces.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    class Category_InterestDataBaseHandler
+    class Category_InterestDataBaseHandler : ICategory_InterestDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -15,9 +17,9 @@ namespace StarRocks.Data.Handlers
             connectionString = constring;
         }
 
-        public List<Categorie_Interest> GetAllCategorie_Interest()
+        public List<ICategorie_Interest> GetAllCategorie_Interest()
         {
-            List<Categorie_Interest> Categorie_Interests = new List<Categorie_Interest>();
+            List<ICategorie_Interest> Categorie_Interests = new List<ICategorie_Interest>();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM Categorie_Interests";
