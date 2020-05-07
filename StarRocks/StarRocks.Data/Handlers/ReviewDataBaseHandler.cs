@@ -52,7 +52,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO review VALUES(@EventID, @AccountID,@Rating,@Message; ";
+                string query = "INSERT INTO review VALUES(@EventID, @AccountID,@Rating,@Message); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

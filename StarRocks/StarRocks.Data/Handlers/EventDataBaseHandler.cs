@@ -49,7 +49,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO event VALUES(@AccountID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity; ";
+                string query = "INSERT INTO event VALUES(@AccountID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

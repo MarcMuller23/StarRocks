@@ -40,7 +40,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO Categorie VALUES(@AccountID, @Name,@Description ";
+                string query = "INSERT INTO Categorie VALUES(@AccountID, @Name,@Description) ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

@@ -49,7 +49,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO role VALUES(@Role_Description; ";
+                string query = "INSERT INTO role VALUES(@Role_Description); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

@@ -51,7 +51,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO Account VALUES( @FirstName,@Preposition,@LastName,@Email,@Password,@PhoneNumber,@Street,@HouseNumber,@Addition,@PostalCode,@City,@Birthdate; ";
+                string query = "INSERT INTO Account VALUES( @FirstName,@Preposition,@LastName,@Email,@Password,@PhoneNumber,@Street,@HouseNumber,@Addition,@PostalCode,@City,@Birthdate); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {                    
