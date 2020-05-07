@@ -1,10 +1,11 @@
-﻿using System;
+﻿using StarRocks.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Entities
 {
-    public class Categorie_Interest
+    public class Categorie_Interest : ICategorie_Interest
     {
         public int ID { get; set; }
         public int CategorieID { get; set; }

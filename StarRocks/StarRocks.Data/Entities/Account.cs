@@ -1,10 +1,11 @@
-﻿using System;
+﻿using StarRocks.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Data.Entities
 {
-    public class Account
+    public class Account : IAccount
     {
         public int ID { get; set; }
         public string FirstName { get; set; }
