@@ -3,3 +3,8 @@ D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\Sta
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csprojAssemblyReference.cache
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfoInputs.cache
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfo.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.deps.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csprojAssemblyReference.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfoInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfo.cs

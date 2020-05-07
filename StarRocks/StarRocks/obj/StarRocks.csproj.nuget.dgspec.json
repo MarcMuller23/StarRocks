@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj": {}
+    "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj": {}
   },
   "projects": {
-    "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj": {
+    "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
+        "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
         "projectName": "StarRocks",
-        "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
-        "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\obj\\",
+        "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
+        "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,7 +40,7 @@
           "dependencies": {
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.19, )"
+              "version": "[8.0.20, )"
             }
           },
           "imports": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
