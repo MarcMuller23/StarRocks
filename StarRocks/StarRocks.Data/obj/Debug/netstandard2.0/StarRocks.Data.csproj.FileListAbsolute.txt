@@ -15,3 +15,10 @@ D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\Sta
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CopyComplete
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.dll
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CoreCompileInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CopyComplete
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.pdb
