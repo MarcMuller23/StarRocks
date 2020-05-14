@@ -12,5 +12,6 @@ namespace StarRocks.Interfaces.Handlers
         void UpdateAccount(IAccount A1);
 
         void DeleteAccount(int ID);
+        IAccount GetById(IAccount eventRegistration);
     }
 }

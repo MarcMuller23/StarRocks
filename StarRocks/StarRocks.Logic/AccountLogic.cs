@@ -1,6 +1,7 @@
 ﻿using StarRocks.Interfaces;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
+using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Logic.Model;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Text;
 
 namespace StarRocks.Logic
 {
-    public class AccountLogic
+    public class AccountLogic : IAccountLogic
     {
         private readonly IAccountDataBaseHandler _accountDataBaseHandler;
 
@@ -19,7 +20,7 @@ namespace StarRocks.Logic
 
         private IAccountDataBaseHandler AccountDataBaseHandler { get; }
 
-        public void CreateEventRegistration(IAccountDataBaseHandler accountRegistration)
+        public void CreateAccount(IAccount account)
         {
             var _account = new Account()
             {
@@ -28,25 +29,27 @@ namespace StarRocks.Logic
             AccountDataBaseHandler.CreateAccount(_account);
         }
 
-        public List<IAccount> GetAllEventRegistrations()
+        public List<IAccount> GetAllAccounts()
         {
             return AccountDataBaseHandler.GetAllAccounts();
         }
 
-        public IAccount UpdateEventRegistration(IAccount account)
+        public IAccount UpdateAccount(IAccount account)
         {
             AccountDataBaseHandler.UpdateAccount(account);
             return account;
         }
 
-        public void DeleteEventRegistration(int accountId)
+        public void DeleteAccount(int accountId)
         {
             AccountDataBaseHandler.DeleteAccount(accountId);
         }
 
-        public IEventRegistration GetById(IAccount account)
+        public IAccount GetById(IAccount account)
         {
             return AccountDataBaseHandler.GetById(account);
         }
+
+       
     }
 }
