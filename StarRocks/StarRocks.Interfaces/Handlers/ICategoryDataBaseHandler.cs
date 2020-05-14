@@ -13,5 +13,7 @@ namespace StarRocks.Interfaces.Handlers
         void UpdateEvent(ICategorie C1);
 
         void DeleteEvent(int ID);
+
+        ICategorie GetById(ICategorie categorie);
     }
 }

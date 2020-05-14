@@ -2,9 +2,7 @@
 using StarRocks.Data.Entities;
 using StarRocks.Interfaces;
 using StarRocks.Interfaces.Handlers;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
@@ -16,7 +14,7 @@ namespace StarRocks.Data.Handlers
         {
             connectionString = constring;
         }
-       
+
         public List<IAccount> GetAllAccounts()
         {
             List<IAccount> Accounts = new List<IAccount>();
@@ -56,7 +54,7 @@ namespace StarRocks.Data.Handlers
                 string query = "INSERT INTO Account VALUES( @FirstName,@Preposition,@LastName,@Email,@Password,@PhoneNumber,@Street,@HouseNumber,@Addition,@PostalCode,@City,@Birthdate); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
-                {                    
+                {
                     command.Parameters.AddWithValue("@FirstName", A1.FirstName);
                     command.Parameters.AddWithValue("@Preposition", A1.Preposition);
                     command.Parameters.AddWithValue("@LastName", A1.LastName);
@@ -68,7 +66,7 @@ namespace StarRocks.Data.Handlers
                     command.Parameters.AddWithValue("@PostalCode", A1.PostalCode);
                     command.Parameters.AddWithValue("@City", A1.City);
                     command.Parameters.AddWithValue("@Birthdate", A1.Birthdate);
-                    
+
 
 
 
@@ -111,5 +109,20 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
+
+        public IAccount GetById(IAccount account)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM account WHERE ID = @ID; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", account.ID);
+
+                }
+            }
+            return account;
+        }
     }
 }
+

@@ -13,5 +13,7 @@ namespace StarRocks.Interfaces.Handlers
         void UpdateEvent(IEvent E1);
 
         void DeleteEvent(int ID);
+
+        IEvent GetById(IEvent _event);
     }
 }
