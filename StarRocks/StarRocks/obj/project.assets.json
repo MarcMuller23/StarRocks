@@ -7478,19 +7478,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joeps\\.nuget\\packages\\": {}
+    "C:\\Users\\marc_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
       "projectName": "StarRocks",
-      "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
-      "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks\\obj\\",
+      "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7503,11 +7503,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             },
-            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
-              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
+            "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
+              "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
             }
           }
         }
@@ -7548,7 +7548,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

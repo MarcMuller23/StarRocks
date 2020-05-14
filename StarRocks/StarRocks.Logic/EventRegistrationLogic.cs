@@ -1,7 +1,7 @@
 ﻿using Org.BouncyCastle.Asn1.Mozilla;
-using StarRocks.Data.Entities;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
+using StarRocks.Logic.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
