@@ -4542,19 +4542,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marc_\\.nuget\\packages\\": {}
+    "C:\\Users\\joeps\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj",
+      "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj",
       "projectName": "StarRocks.Data",
-      "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj",
-      "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Data\\obj\\",
+      "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj",
+      "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4567,8 +4567,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             }
           }
         }
@@ -4603,7 +4603,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

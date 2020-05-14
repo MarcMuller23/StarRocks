@@ -95,5 +95,20 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
+
+        //GetById
+        public INewsMessage GetById(INewsMessage newsMessage)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM NewsMessage WHERE ID = @ID; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", newsMessage.ID);
+                    
+                }
+            }
+            return newsMessage;
+        }
     }
 }
