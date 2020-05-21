@@ -55,7 +55,7 @@ namespace StarRocks.Controllers
         {
             _eventRegistrationLogic.CreateEventRegistration(eventRegistration);
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Create");
         }
 
         //Edit in CRUD
@@ -76,7 +76,7 @@ namespace StarRocks.Controllers
 
         public ActionResult AllMovies()
         {
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

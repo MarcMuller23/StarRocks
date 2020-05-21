@@ -1,0 +1,15 @@
+﻿@model StarRocks.Models.EventRegistrationViewModel
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Weet u zeker dat u wilt inschrijven?</h1>
+
+<form method="post">
+    <div class="Login">
+        <button type="submit" asp-controller="EventRegistration" asp-action="Create">Inschrijven</button>
+        <button type="submit" asp-controller="Event" asp-action="Index">Annuleren</button>
+    </div>
+</form>

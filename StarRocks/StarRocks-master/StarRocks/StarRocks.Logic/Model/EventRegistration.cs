@@ -7,8 +7,8 @@ namespace StarRocks.Logic.Model
 {
     class EventRegistration : IEventRegistration
     {
-        public int ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int EventID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int AccountID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ID { get; set; }
+        public int EventID { get; set; }
+        public int AccountID { get; set; }
     }
 }

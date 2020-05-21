@@ -84,5 +84,11 @@ namespace StarRocks.Controllers
         {
             return View();
         }
+
+        public ActionResult Participate(EventViewModel _event)
+        {
+
+            return View();
+        }
     }
 }
