@@ -98,5 +98,19 @@ namespace StarRocks.Data.Handlers
                 }
             }
         }
+
+        public IEvent GetById(IEvent _event)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM event WHERE ID = @ID; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", _event.ID);
+
+                }
+            }
+            return _event;
+        }
     }
 }

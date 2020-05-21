@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace StarRocks.Data.Handlers
 {
-    class AccountDataBaseHandler : IAccountDataBaseHandler
+    public class AccountDataBaseHandler : IAccountDataBaseHandler
     {
         private static string connectionString = "";
 

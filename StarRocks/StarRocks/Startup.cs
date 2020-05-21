@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StarRocks.Data.Handlers;
 
 namespace StarRocks
 {
@@ -54,6 +55,15 @@ namespace StarRocks
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            AccountDataBaseHandler.SetConnectionString(ConnectionString);
+            CatagoryDataBaseHandler.SetConnectionString(ConnectionString);
+            Category_InterestDataBaseHandler.SetConnectionString(ConnectionString);
+            EventDataBaseHandler.SetConnectionString(ConnectionString);
+            EventRegistrationDataBaseHandler.SetConnectionString(ConnectionString);
+            NewsMessageDataBaseHandler.SetConnectionString(ConnectionString);
+            ReminderDataBaseHandler.SetConnectionString(ConnectionString);
+            ReviewDataBaseHandler.SetConnectionString(ConnectionString);
+            RoleDataBaseHandler.SetConnectionString(ConnectionString);
         }
     }
 }

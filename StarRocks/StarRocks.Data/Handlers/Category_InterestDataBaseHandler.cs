@@ -8,7 +8,7 @@ using System.Text;
 
 namespace StarRocks.Data.Handlers
 {
-    class Category_InterestDataBaseHandler : ICategory_InterestDataBaseHandler
+    public class Category_InterestDataBaseHandler : ICategory_InterestDataBaseHandler
     {
         private static string connectionString = "";
 
@@ -83,6 +83,20 @@ namespace StarRocks.Data.Handlers
                     command.ExecuteNonQuery();
                 }
             }
+        }
+
+        public ICategorie_Interest GetById(ICategorie_Interest categorie_Interest)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM category_interest WHERE ID = @ID; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", categorie_Interest.ID);
+
+                }
+            }
+            return categorie_Interest;
         }
     }
 }
