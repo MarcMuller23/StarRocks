@@ -1,6 +1,7 @@
 ﻿using Org.BouncyCastle.Asn1.Mozilla;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
+using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Logic.Model;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Text;
 
 namespace StarRocks.Logic
 {
-    public class EventRegistrationLogic
+    public class EventRegistrationLogic : IEventRegistrationLogic
     {
         private readonly IEventRegistrationDataBaseHandler _eventRegistrationDataBaseHandler;
 

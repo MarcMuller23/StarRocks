@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StarRocks.Data.Handlers;
+using StarRocks.Interfaces.Handlers;
+using StarRocks.Interfaces.Logic_Classes;
+using StarRocks.Logic;
 
 namespace StarRocks
 {
@@ -27,6 +30,26 @@ namespace StarRocks
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<IAccountLogic, AccountLogic>();
+            services.AddScoped<ICategoryLogic, CategoryLogic>();
+            services.AddScoped<ICategory_InterestLogic, Category_InterestLogic>();
+            services.AddScoped<IEventLogic, EventLogic>();
+            services.AddScoped<IEventRegistrationLogic, EventRegistrationLogic>();
+            services.AddScoped<INewsMessageLogic, NewsMessageLogic>();
+            services.AddScoped<IReminderLogic, ReminderLogic>();
+            services.AddScoped<IReviewLogic, ReviewLogic>();
+            //db
+            services.AddScoped<IAccountDataBaseHandler, AccountDataBaseHandler>();
+            services.AddScoped<ICategoryDataBaseHandler, CatagoryDataBaseHandler>();
+            services.AddScoped<ICategory_InterestDataBaseHandler, Category_InterestDataBaseHandler>();
+            services.AddScoped<IEventDataBaseHandler, EventDataBaseHandler>();
+            services.AddScoped<IEventRegistrationDataBaseHandler, EventRegistrationDataBaseHandler>();
+            services.AddScoped<INewsMessageDataBaseHandler, NewsMessageDataBaseHandler>();
+            services.AddScoped<IReminderDataBaseHandler, ReminderDataBaseHandler>();
+            services.AddScoped<IReviewDataBaseHandler, ReviewDataBaseHandler>();
+            services.AddScoped<IRoleDataBaseHandler, RoleDataBaseHandler>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
