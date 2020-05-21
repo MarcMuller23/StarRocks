@@ -1,0 +1,464 @@
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.exe
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.deps.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.dev.json
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.dll
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csprojAssemblyReference.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CoreCompileInputs.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfoInputs.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfo.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.input.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.output.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorCoreGenerate.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminEvents.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminFav.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminInbox.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminMaps.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminProfile.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminSent.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminTrash.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cs
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.Manifest.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.xml
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.genruntimeconfig.cache
+C:\Users\kmlvd\source\repos\StarRocks\Git1\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CopyComplete
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.exe
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.deps.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.dev.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csprojAssemblyReference.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CoreCompileInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfoInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.input.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.output.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorCoreGenerate.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminEvents.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminFav.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminInbox.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminMaps.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminProfile.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminSent.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminTrash.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.Views.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.Manifest.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.xml
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.genruntimeconfig.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CopyComplete
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.exe
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.deps.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.dev.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csprojAssemblyReference.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfoInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfo.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.input.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.output.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorCoreGenerate.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminEvents.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminFav.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminInbox.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminMaps.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminProfile.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminSent.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminTrash.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.Manifest.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.xml
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.genruntimeconfig.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CopyComplete
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CoreCompileInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.exe
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.deps.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.runtimeconfig.dev.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\bin\Debug\netcoreapp3.1\StarRocks.Data.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csprojAssemblyReference.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CoreCompileInputs.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorAssemblyInfo.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfoInputs.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.AssemblyInfo.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.input.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.TagHelpers.output.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorCoreGenerate.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminEvents.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminFav.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminInbox.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminMaps.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminProfile.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminSent.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminTrash.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.RazorTargetAssemblyInfo.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.Views.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.csproj.CopyComplete
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.Manifest.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\staticwebassets\StarRocks.StaticWebAssets.xml
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.genruntimeconfig.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\Index.cshtml.g.cs

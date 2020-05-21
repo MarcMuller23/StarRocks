@@ -1,0 +1,42 @@
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.deps.json
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csprojAssemblyReference.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfoInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.deps.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csprojAssemblyReference.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CoreCompileInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfoInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CopyComplete
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CoreCompileInputs.cache
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CopyComplete
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.dll
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.deps.json
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Logic.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Data.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csprojAssemblyReference.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CoreCompileInputs.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfoInputs.cache
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.AssemblyInfo.cs
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.csproj.CopyComplete
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.dll
+C:\Users\goert\Downloads\StarRocks-master (3)\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netstandard2.0\StarRocks.Logic.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hEyjcV51phdcvE7GdWiW9/8yRmcTyodAYsnWIL/fG2K13R16NpGN3/Vra5HdVDiynkV7ZoVMmZrk6WqedWfoMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\goert\\Downloads\\StarRocks-master (3)\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\goert\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\goert\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
