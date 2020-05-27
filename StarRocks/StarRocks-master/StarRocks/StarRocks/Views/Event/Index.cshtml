@@ -69,6 +69,8 @@
                     @Html.ActionLink("Edit", "Edit", new { ID = item.ID }) |
                     @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');" }) |
                     @*@Html.ActionLink("Inschrijven", "Participate", new { ID = item.ID })*@
+
+                    
                     <a asp-area="" asp-controller="EventRegistration" asp-action="Create">Inschrijven</a>
                 </td>
             </tr>

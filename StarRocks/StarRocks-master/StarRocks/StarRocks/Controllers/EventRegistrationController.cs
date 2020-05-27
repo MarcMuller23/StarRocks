@@ -44,9 +44,12 @@ namespace StarRocks.Controllers
 
         //Create in CRUD
         [HttpGet]
-        public ActionResult Create()
+        public ActionResult Create(int id)
         {
-            var eventRegistrationViewModel = new EventRegistrationViewModel();
+            var eventRegistrationViewModel = new EventRegistrationViewModel() 
+            {            
+            ID=id
+            };
             return View(eventRegistrationViewModel);
         }
 

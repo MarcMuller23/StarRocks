@@ -46,3 +46,15 @@ C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\St
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CopyComplete
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.dll
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.deps.json
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Data.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csprojAssemblyReference.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CoreCompileInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfoInputs.cache
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.AssemblyInfo.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.csproj.CopyComplete
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.dll
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Data\obj\Debug\netstandard2.0\StarRocks.Data.pdb

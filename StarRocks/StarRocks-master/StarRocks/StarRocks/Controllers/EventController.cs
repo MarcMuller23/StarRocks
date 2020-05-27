@@ -41,6 +41,7 @@ namespace StarRocks.Controllers
             return View(_events);
         }
 
+
         //Delete in CRUD
         public ActionResult Delete(int ID)
         {
