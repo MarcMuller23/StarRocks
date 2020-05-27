@@ -1,35 +1,67 @@
-﻿@{
+﻿@using StarRocks.Data.Roles
+@model UserRegisterViewModel
+
+@{
     ViewData["Title"] = "Registreer";
 }
 
-
+<div asp-validation-for="All" class="text-danger"></div>
 <h1 class="display-4">Registreer hier!</h1>
-<br/>
+<br />
 <p>Al een account? <a href="~/Home/Login">Login</a></p>
 <a href="#" class="fb btn">
     <i class="fa fa-facebook fa-fw"></i> Registreren met Facebook
-</a> 
-<br/>
-<br/>
-<label for="Vnaam" class="ProfileEditText">Voornaam</label><label for="Anaam" class="Achtertext">Achternaam</label>
-<br />
-<input type="text" id="Vnaam" name="Vnaam">
-<input type="text" id="Anaam" name="Anaam">
-<br />
-<br />
-<label for="email" class="ProfileEditText">Email</label>
-<br />
-<input type="text" id="email" name="email" class="registerimput">
-<br>
-<br>
-<label for="wachtwoord1" class="registerimputt">Wachtwoord</label>
-<br />
-<input type="text" id="wachtwoord1" name="wachtwoord" class="registerimput">
-<br>
-<br>
-<label for="wachtwoord2" class="ProfileEditText">Wachtwoord overnieuw</label>
-<br />
-<input type="text" id="wachtwoord2" name="wachtwoord" class="registerimput">
-<br>
-<br>
-<input type="submit" class="RegistreerBtn" value="Registreer">
+</a>
+<form autocomplete="off" asp-action="Register" method="post">
+    <br />
+    <br />
+    <label for="Vnaam" class="ProfileEditText">Voornaam</label>
+    <br />
+    <input asp-for="Firstname" type="text" id="Vnaam">
+    <span asp-validation-for="Firstname" class="text-danger"></span>
+
+    <br />
+    <br />
+    <label style="margin-left: 0px;" for="Anaam" class="Achtertext">Achternaam</label>
+    <br />
+    <input asp-for="Lastname" type="text" id="Anaam">
+    <span asp-validation-for="Lastname" class="text-danger"></span>
+    <br />
+    <br />
+    <label for="email" class="ProfileEditText">Email</label>
+    <br />
+    <input asp-for="Email" type="email" class="registerimput">
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br>
+    <br>
+    <label for="wachtwoord1" class="registerimputt">Wachtwoord</label>
+    <br />
+
+    <input asp-for="PasswordHash" placeholder="Wachtwoord" type="password" class="registerimput">
+    <span asp-validation-for="PasswordHash" class="text-danger"></span>
+    <br>
+    <br>
+    <label for="wachtwoord2" class="ProfileEditText">Wachtwoord overnieuw</label>
+    <br />
+    <input asp-for="ConfirmPassword" type="password" id="wachtwoord2" class="registerimput">
+    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    <br>
+    
+    @if(User.IsInRole(Roles.Admin)){
+    <div class="form-group">
+        <label asp-for="Role"></label>
+        <span asp-validation-for="Role" class="text-danger"></span>
+        @Html.DropDownListFor(m => m.Role, Model.RoleList, "Kies hier een Role", new { @class = "form-control" })
+    </div>
+    }
+    <br>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <br />
+
+    <input type="submit" class="RegistreerBtn" value="Registreer">
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

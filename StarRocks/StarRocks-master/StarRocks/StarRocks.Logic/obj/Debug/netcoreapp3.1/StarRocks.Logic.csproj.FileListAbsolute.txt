@@ -1,0 +1,14 @@
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.deps.json
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Data.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Data.pdb
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.pdb
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csprojAssemblyReference.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.AssemblyInfoInputs.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.AssemblyInfo.cs
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csproj.CopyComplete
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.pdb

@@ -52,3 +52,12 @@ C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks
 C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfo.cs
 C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.dll
 C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.deps.json
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csprojAssemblyReference.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfo.cs
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.dll
+C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.pdb

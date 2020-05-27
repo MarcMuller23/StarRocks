@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using StarRocks.Data.Roles;
 using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Models;
 
@@ -10,6 +12,7 @@ using StarRocks.Models;
 
 namespace StarRocks.Controllers
 {
+    [Authorize(Roles = Roles.Admin)]
     public class AccountController : Controller
     {
         private readonly IAccountLogic _accountLogic;

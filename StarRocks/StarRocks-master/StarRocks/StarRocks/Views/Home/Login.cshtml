@@ -1,13 +1,19 @@
-﻿@{
+﻿@model UserLoginViewModel
+
+
+@{
     ViewData["Title"] = "Login";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welkom terug</h1>
-    <label for="email" class="logintext">Email</label><br/>
-    <input type="text" id="email" name="email"><br><br>
-    <label for="wachtwoord" class="logintext">Wachtwoord</label><br/>
-    <input type="text" id="wachtwoord" name="wachtwoord"><br><br>
-    <p>Heeft u nog geen account? <a href="~/Home/Register">Registreer!</a></p>
-    <input type="submit"  class="loginbutton" value="Login">
-</div>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Login" method="post">
+    <div class="text-center">
+        <h1 class="display-4">Welkom terug</h1>
+        <label for="email" class="logintext">Email</label><br />
+        <input asp-for="Email" type="email" id="email" placeholder="Email"><br><br>
+        <label for="wachtwoord" class="logintext">Wachtwoord</label><br />
+        <input asp-for="PasswordHash" type="password" id="wachtwoord" placeholder="Wachtwoord"><br><br>
+        <p>Heeft u nog geen account? <a href="~/Home/Register">Registreer!</a></p>
+        <input type="submit" value="Inloggen" class="loginbutton">
+    </div>
+</form>
