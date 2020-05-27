@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<StarRocks.Models.EventViewModel>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,7 +8,7 @@
 <ul class="AdminNav">
     <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
     <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
-    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminEvents">Events</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="test">Events</a></li>
 </ul>
 
 <script language="javascript">
@@ -18,45 +20,82 @@
     }
 </script>
 
-<div class="EventsTable">
-    <table id="myTable">
-        <tr>
-            <th class="CheckEvent"><input class="CheckEvent" type="checkbox" onClick="toggle(this)" /></th>
-            <th>Event</th>
-            <th>Gepland voor</th>
-            <th>status</th>
-            <th>bezoekers</th>
-        </tr>
-        <tr>
-            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar1"></td>
-            <td>C#</td>
-            <td>20-04-2020</td>
-            <td>Gepland</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar2"></td>
-            <td>Java</td>
-            <td>08-04-2020</td>
-            <td>Canceled</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar3"></td>
-            <td>Python</td>
-            <td>24-04-2020</td>
-            <td>Verplaatst</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td class="CheckEvent"><input class="CheckEvent" type="checkbox" name="foo" value="bar4"></td>
-            <td>Javascript</td>
-            <td>17-05-2020</td>
-            <td>Complete</td>
-            <td>30</td>
-        </tr>
+
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Date
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+                    Limit
+                </th>
+                <th>
+                    Host
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaxCapacity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AccountID)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { ID = item.ID }) |
+                        @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');" }) |
+                        @*@Html.ActionLink("Inschrijven", "Participate", new { ID = item.ID })*@
+
+
+                        @*<a asp-area="" asp-controller="EventRegistration" asp-action="Create">Inschrijven</a>*@
+                    </td>
+                </tr>
+            }
     </table>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="AdminEvents">Back to List</a>
 </div>
+
 
 <div class="AddEvents">
     <label for="Eventname">Event</label><br />
@@ -66,3 +105,4 @@
 
     <input type="submit" class="AddEvent" value="Event toevoegen">
 </div>
+

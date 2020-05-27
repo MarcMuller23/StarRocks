@@ -41,12 +41,33 @@ namespace StarRocks.Controllers
             return View(_events);
         }
 
+        public ActionResult Test()
+        {
+            var allEvents = _eventLogic.GetAllEvents();
+            var _events = new List<EventViewModel>();
+
+            foreach (var _event in allEvents)
+            {
+                _events.Add(new EventViewModel
+                {
+                    ID = _event.ID,
+                    AccountID = _event.AccountID,
+                    CategoryID = _event.CategoryID,
+                    Date = _event.Date,
+                    Description = _event.Description,
+                    Location = _event.Location,
+                    MaxCapacity = _event.MaxCapacity,
+                    Name = _event.Name
+                });
+            }
+            return View(_events);
+        }
 
         //Delete in CRUD
         public ActionResult Delete(int ID)
         {
             _eventLogic.DeleteEvent(ID);
-            return RedirectToAction("Index");
+            return RedirectToAction("test");
         }
 
         //Create in CRUD

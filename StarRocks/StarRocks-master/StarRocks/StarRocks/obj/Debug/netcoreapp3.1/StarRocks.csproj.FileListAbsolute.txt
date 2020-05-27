@@ -887,3 +887,4 @@ C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks
 C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.genruntimeconfig.cache
 C:\Users\gijsr\Documents\School\2e semester\StarRocks\GitHub\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\EventRegistration\Success.cshtml.g.cs
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\EventRegistration\Success.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\test.cshtml.g.cs

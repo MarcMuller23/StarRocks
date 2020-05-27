@@ -94,6 +94,7 @@ namespace StarRocks.Data.Handlers
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@ID", ID);
+                    conn.Open();
                     command.ExecuteNonQuery();
                 }
             }

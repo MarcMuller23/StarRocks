@@ -131,6 +131,7 @@ input {
     border: 1px solid goldenrod;
     border-radius: 15px;
     width: 300px;
+    text-indent: 5px;
 }
 
 .fb {
@@ -157,7 +158,7 @@ input {
     }
 
 .AdminNav {
-    position: fixed;
+    position: -webkit-sticky;
     height: 100%;
     width: 200px;
     background-color: #d9d9d9;
@@ -240,8 +241,11 @@ tr:nth-child(even) {
 
 .AddEvents {
     position: absolute;
-    left: 245px;
-    top: 400px;
+    left: 500px;
+    top: 200px;
+    background-color: white;
+    border: 1px black;
+    border-radius: 5px;
 }
 
 .AddEvent {
@@ -405,6 +409,7 @@ input.RegistreerBtn {
     margin-top: 20px;
     font-size: 20px;
 }
+
 .registerimput {
     width: 426px;
 }
@@ -416,6 +421,7 @@ input.RegistreerBtn {
 #Vnaam {
     width: 213px;
 }
+
 .centered {
     position: absolute;
     top: 50%;

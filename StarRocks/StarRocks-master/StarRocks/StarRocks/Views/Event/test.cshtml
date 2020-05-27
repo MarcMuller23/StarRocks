@@ -1,0 +1,79 @@
+﻿@model IEnumerable<StarRocks.Models.EventViewModel>
+
+@{
+    ViewData["Title"] = "test";
+}
+
+<h1 class="display-5 AdminTitle">Events List</h1>
+<ul class="AdminNav">
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="test">Events</a></li>
+</ul>
+
+
+<table class="table" style="width: 1200px; position: absolute; left: 250px; top: 200px;">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxCapacity)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxCapacity)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');" })
+
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@*<div class="AddEvents">
+    <label for="Eventname">Naam</label><br />
+    <input type="text" id="EventName" /><br /><br />
+    <label for="EventDecs">Beschrijving</label><br />
+    <input type="text" id="EventDesc" /><br /><br />
+    <label for="EventDate">Gepland voor</label><br />
+    <input type="text" id="EventDate" /><br /><br />
+    <label for="EventDate">Locatie</label><br />
+    <input type="text" id="EventLocation" /><br /><br />
+    <label for="EventDate">Limiet visitors</label><br />
+    <input type="text" id="EventMax" /><br /><br />
+
+    <input type="submit" class="AddEvent" value="Event toevoegen">
+</div>*@

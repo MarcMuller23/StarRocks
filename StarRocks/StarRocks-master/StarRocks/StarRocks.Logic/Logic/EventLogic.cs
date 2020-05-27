@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace StarRocks.Logic
-{   
+{
     public class EventLogic : IEventLogic
     {
         private readonly IEventDataBaseHandler eventDataBaseHandler;
@@ -22,7 +22,7 @@ namespace StarRocks.Logic
 
         public void DeleteEvent(int eventeId)
         {
-            throw new NotImplementedException();
+            eventDataBaseHandler.DeleteEvent(eventeId);
         }
 
         public IEnumerable<IEvent> GetAllEvents()
