@@ -4,78 +4,42 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="h2 pt-3 text-center font-weight-bold">UPCOMING EVENTS</div>
+<div class="pb-3 text-center font-weight-normal">Bijzijn bij events = meemaken bij Team Rockstars IT! Kies een event naar eigen keuze en maak je klaar voor een verfrissende IT toekomst!</div>
+<hr />
 
-<div>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.ID)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Description)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Date)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.CategoryID)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Location)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.MaxCapacity)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.AccountID)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Date)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CategoryID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Location)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MaxCapacity)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccountID)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { ID = item.ID }) |
-                    @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');" }) |
+@foreach (var item in Model)
+{
+    <div class="container">
+
+        <div class="card-body">
+            <h2 class="font-weight-bold text-center pb3">@Html.DisplayFor(ModelItem => item.Name)</h2>
+            <div class="row pt-3">
+                <div class="col-5 img-fluid"><img src="~/Images/@Html.DisplayFor(ModelItem =>item.ID) event.jpg" style="width:350px; height:200px;" /></div>
+                <div class="col-7* font-weight-light ">
+                    @Html.DisplayFor(ModelItem => item.Description)
+                </div>
+            </div>
+
+            <div class="row pt-3">
+                <div class="col font-weight-bolder">
+                    @Html.DisplayFor(ModelItem => item.Date)
+
+
+                </div>
+                <div class="col-6 font-weight-bolder">
+                    @Html.DisplayFor(ModelItem => item.Location)
+
+                </div>
+                <div class="col text-white">
+
                     @Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = item.ID })|
+                    @*<button class="btn-warning float-right" type="button" onclick="location.href='@Url.Action("Index", "Event")'">Sign In!</button>*@
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+}
 
-                    @*<a asp-area="" asp-controller="EventRegistration" asp-action="Create">Inschrijven</a>*@
-                </td>
-            </tr>
-            }
-            </table>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
-</div>
