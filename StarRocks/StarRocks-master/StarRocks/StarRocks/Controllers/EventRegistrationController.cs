@@ -48,17 +48,19 @@ namespace StarRocks.Controllers
         {
             var eventRegistrationViewModel = new EventRegistrationViewModel() 
             {            
-            ID=id
+            EventID = id,
+            AccountID = 1
             };
             return View(eventRegistrationViewModel);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(EventRegistrationViewModel eventRegistration)
         {
             _eventRegistrationLogic.CreateEventRegistration(eventRegistration);
 
-            return RedirectToAction("Create");
+            return View();
         }
 
         //Edit in CRUD

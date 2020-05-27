@@ -5,7 +5,7 @@ using System.Text;
 
 namespace StarRocks.Logic.Model
 {
-    class EventRegistration : IEventRegistration
+    public class EventRegistration : IEventRegistration
     {
         public int ID { get; set; }
         public int EventID { get; set; }

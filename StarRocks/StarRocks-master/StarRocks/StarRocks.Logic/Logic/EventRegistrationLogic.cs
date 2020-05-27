@@ -24,9 +24,11 @@ namespace StarRocks.Logic
         {
             var _eventRegistration = new EventRegistration()
             {
-                EventID = eventRegistration.EventID
+                EventID = eventRegistration.EventID,
+                AccountID = eventRegistration.AccountID
             };
-            EventRegistrationDataBaseHandler.CreateEventRegistration(_eventRegistration);
+            
+            _eventRegistrationDataBaseHandler.CreateEventRegistration(_eventRegistration);
         }
 
         public List<IEventRegistration> GetAllEventRegistrations()

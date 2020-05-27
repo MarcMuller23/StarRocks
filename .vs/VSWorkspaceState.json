@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StarRocks",
-    "\\StarRocks\\StarRocks",
-    "\\StarRocks\\StarRocks\\Controllers",
-    "\\StarRocks\\StarRocks\\Views",
-    "\\StarRocks\\StarRocks\\Views\\Admin",
-    "\\StarRocks\\StarRocks\\Views\\Home",
-    "\\StarRocks\\StarRocks\\wwwroot"
+    "\\StarRocks"
   ],
-  "SelectedNode": "\\StarRocks\\StarRocks\\Views\\Home\\Register.cshtml",
   "PreviewInSolutionExplorer": false
 }

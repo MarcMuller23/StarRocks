@@ -50,13 +50,14 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO eventregistration VALUES(@EventID, @AccountID); ";
+                
+                string query = "INSERT INTO eventregistration(EventID,AccountID)VALUES(@EventID,@AccountID); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@EventID", E1.EventID);
                     command.Parameters.AddWithValue("@AccountID", E1.AccountID);
-                    
+                    conn.Open();
                     command.ExecuteNonQuery();
                 }
             }
@@ -67,6 +68,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
+                conn.Open();
                 string query = "UPDATE eventregistration SET EventID = @EventID, AccountID = @AccountID WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
@@ -82,6 +84,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
+                conn.Open();
                 string query = "DELETE FROM eventregistration WHERE ID=@ID";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
@@ -96,6 +99,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
+                conn.Open();
                 string query = "SELECT * FROM eventRegistration WHERE ID = @ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
