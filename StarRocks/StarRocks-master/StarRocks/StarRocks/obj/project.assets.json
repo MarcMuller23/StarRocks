@@ -7478,20 +7478,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joeps\\.nuget\\packages\\": {}
+    "C:\\Users\\gijsr\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "projectUniqueName": "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
       "projectName": "StarRocks",
-      "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
-      "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
+      "projectPath": "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "packagesPath": "C:\\Users\\gijsr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gijsr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -7503,11 +7508,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             },
-            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
-              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
+            "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
+              "projectPath": "C:\\Users\\gijsr\\Documents\\School\\2e semester\\StarRocks\\GitHub\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
             }
           }
         }
@@ -7548,7 +7553,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StarRocks"
+    "\\StarRocks",
+    "\\StarRocks\\StarRocks-master",
+    "\\StarRocks\\StarRocks-master\\StarRocks"
   ],
+  "SelectedNode": "\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.sln",
   "PreviewInSolutionExplorer": false
 }
