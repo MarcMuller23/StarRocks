@@ -24,16 +24,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
-                        </li>
-                        @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Register">Registeer</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Event" asp-action="Index">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
-                        </li>*@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                        </li>
                         
-                        @if(User.IsInRole(Roles.Admin)){
+                        @*<li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Register">Registeer</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+        </li>*@
+
+                        @if (User.IsInRole(Roles.Admin))
+                        {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Admin</a>
                             </li>

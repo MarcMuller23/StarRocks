@@ -15,15 +15,11 @@
 <form autocomplete="off" asp-action="Register" method="post">
     <br />
     <br />
-    <label for="Vnaam" class="ProfileEditText">Voornaam</label>
+    <label for="Vnaam" class="ProfileEditText">Voornaam</label><label style="margin-left: 130px;" for="Anaam" class="Achtertext">Achternaam</label>
     <br />
     <input asp-for="Firstname" type="text" id="Vnaam">
     <span asp-validation-for="Firstname" class="text-danger"></span>
 
-    <br />
-    <br />
-    <label style="margin-left: 0px;" for="Anaam" class="Achtertext">Achternaam</label>
-    <br />
     <input asp-for="Lastname" type="text" id="Anaam">
     <span asp-validation-for="Lastname" class="text-danger"></span>
     <br />
@@ -46,13 +42,14 @@
     <input asp-for="ConfirmPassword" type="password" id="wachtwoord2" class="registerimput">
     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     <br>
-    
-    @if(User.IsInRole(Roles.Admin)){
-    <div class="form-group">
-        <label asp-for="Role"></label>
-        <span asp-validation-for="Role" class="text-danger"></span>
-        @Html.DropDownListFor(m => m.Role, Model.RoleList, "Kies hier een Role", new { @class = "form-control" })
-    </div>
+
+    @if (User.IsInRole(Roles.Admin))
+    {
+        <div class="form-group">
+            <label asp-for="Role"></label>
+            <span asp-validation-for="Role" class="text-danger"></span>
+            @Html.DropDownListFor(m => m.Role, Model.RoleList, "Kies hier een Role", new { @class = "form-control" })
+        </div>
     }
     <br>
     <div asp-validation-summary="All" class="text-danger"></div>

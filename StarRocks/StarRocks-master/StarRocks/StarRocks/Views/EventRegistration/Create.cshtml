@@ -13,10 +13,6 @@
         <button type="submit" asp-controller="Event" asp-action="Index">Annuleren</button>
         <input type="hidden" asp-for="EventID"/>
         <input type="hidden" asp-for="AccountID"/>
-        @{
-
-            <h1>@Html.DisplayFor(modelItem => modelItem.EventID)</h1>
-
-        }
+       
     </div>
 </form>
