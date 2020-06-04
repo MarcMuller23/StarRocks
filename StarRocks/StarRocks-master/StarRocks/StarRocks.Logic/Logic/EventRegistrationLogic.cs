@@ -1,4 +1,5 @@
 ﻿using Org.BouncyCastle.Asn1.Mozilla;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
 using StarRocks.Interfaces.Logic_Classes;
@@ -50,6 +51,11 @@ namespace StarRocks.Logic
         public IEventRegistration GetById(IEventRegistration eventRegistration)
         {
             return EventRegistrationDataBaseHandler.GetById(eventRegistration);
+        }
+
+        public List<IAccount> GetAttendees(int eventId)
+        {
+            return _eventRegistrationDataBaseHandler.GetAttendees(eventId);
         }
     }   
 }

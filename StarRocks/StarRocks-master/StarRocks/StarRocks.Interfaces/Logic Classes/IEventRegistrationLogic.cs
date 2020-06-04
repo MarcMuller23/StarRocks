@@ -12,5 +12,6 @@ namespace StarRocks.Interfaces.Logic_Classes
         IEventRegistration UpdateEventRegistration(IEventRegistration eventRegistration);
         void DeleteEventRegistration(int eventRegistrationId);
         IEventRegistration GetById(IEventRegistration eventRegistration);
+        List<IAccount> GetAttendees(int eventId);
     }
 }

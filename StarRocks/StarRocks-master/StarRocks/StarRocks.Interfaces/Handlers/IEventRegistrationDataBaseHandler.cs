@@ -16,5 +16,7 @@ namespace StarRocks.Interfaces.Handlers
         void DeleteEventRegistration(int ID);
 
         IEventRegistration GetById(IEventRegistration eventRegistration);
+
+        List<IAccount> GetAttendees(int eventId);
     }
 }

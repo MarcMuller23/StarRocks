@@ -1,0 +1,18 @@
+﻿@model List<StarRocks.Interfaces.IAccount>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Deze mensen gaan naar dit evenement:</h1>
+
+@foreach (var item in Model)
+{
+
+<ul> 
+    <li>@Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.Preposition) @Html.DisplayFor(modelItem => item.LastName)</li> 
+</ul>
+
+}
+
+<a asp-controller="Home" asp-action="Index">Back to Homepage</a>

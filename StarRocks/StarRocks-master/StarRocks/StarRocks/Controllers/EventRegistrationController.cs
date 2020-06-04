@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StarRocks.Data;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Models;
 
@@ -82,9 +83,19 @@ namespace StarRocks.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult AllMovies()
+        /*[HttpGet]
+        public ActionResult Details(int id)
         {
-            return RedirectToAction("Index");
+            return View(id);
+        }*/
+
+        //[HttpPost]
+        public ActionResult Details(int id)
+        {
+            List<IAccount> AttendeesList = _eventRegistrationLogic.GetAttendees(id);
+
+            return View(AttendeesList);
         }
+
     }
 }

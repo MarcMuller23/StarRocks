@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
 using System;
@@ -112,6 +113,30 @@ namespace StarRocks.Data.Handlers
             return eventRegistration;
         }
 
-        
+        public List<IAccount> GetAttendees(int eventId)
+        {
+            var userList = new List<IAccount>(); 
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                using (MySqlCommand query = new MySqlCommand("select * from account a inner join eventregistration er on er.AccountID = a.ID where er.EventID = @eventId", conn))
+                {
+                    query.Parameters.AddWithValue("@eventId", eventId);
+                    conn.Open();
+                    var reader = query.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        IAccount Account = new Account();
+                        Account.FirstName = reader.GetString(1);
+                        Account.Preposition = reader.GetString(2);
+                        Account.LastName = reader.GetString(3);
+
+                        userList.Add(Account);
+                    }
+                }
+            }
+            return userList;
+        }
+
     }
 }

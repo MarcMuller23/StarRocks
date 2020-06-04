@@ -3,7 +3,10 @@
     "",
     "\\StarRocks",
     "\\StarRocks\\StarRocks-master",
-    "\\StarRocks\\StarRocks-master\\StarRocks"
+    "\\StarRocks\\StarRocks-master\\StarRocks",
+    "\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks",
+    "\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\Views",
+    "\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\Views\\Home"
   ],
   "SelectedNode": "\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.sln",
   "PreviewInSolutionExplorer": false
