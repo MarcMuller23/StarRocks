@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using StarRocks.Data.Entities;
 using StarRocks.Data.Roles;
 using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Models;
+using System.Threading.Tasks;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,27 +15,52 @@ namespace StarRocks.Controllers
     public class AccountController : Controller
     {
         private readonly IAccountLogic _accountLogic;
+        private readonly UserManager<User> _userManager;
 
-        public AccountController(IAccountLogic accountLogic)
+        public AccountController(IAccountLogic accountLogic, UserManager<User> usermanager)
         {
             _accountLogic = accountLogic;
+            _userManager = usermanager;
         }
 
 
         //Read in CRUD
-        public ActionResult Index()
+        public async Task<IActionResult> Index(string id)
         {
-            var allAccounts = _accountLogic.GetAllAccounts();
-            var accounts = new List<AccountViewModel>();
 
-            foreach (var eventRegistration in allAccounts)
+            var user = await _userManager.GetUserAsync(User);
+            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+
+            if (user == null)
             {
-                accounts.Add(new AccountViewModel
-                {
-                    //dasdasdasdasdasd
-                });
+                ViewBag.ErrorMessage = $"User with Id = {id} cannot be found";
+                return NotFound();
             }
-            return View(accounts);
+
+            // // GetClaimsAsync retunrs the list of user Claims
+            // var userClaims = await _userManager.GetClaimsAsync(user);
+            // // GetRolesAsync returns the list of user Roles
+            // var userRoles = await _userManager.GetRolesAsync(user);
+
+            var model = new AccountViewModel()
+            {
+                ID = user.Id,
+                FirstName = user.Firstname,
+                Preposition = user.Preposition,
+                LastName = user.Lastname,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                Street = user.Street,
+                HouseNumber = user.Housenumber,
+                Addition = user.Addition,
+                PostalCode = user.Postalcode,
+                City = user.City,
+                Birthdate = user.Birthday
+                // Claims = userClaims.Select(c => c.Value).ToList(),
+                // Roles = userRoles
+            };
+
+            return View(model);
         }
 
         //Delete in CRUD
@@ -62,25 +86,84 @@ namespace StarRocks.Controllers
             return RedirectToAction("Index");
         }
 
-        //Edit in CRUD
+
         [HttpGet]
-        public ActionResult Edit()
+        public async Task<IActionResult> Update(string id)
         {
-            var account = new AccountViewModel();
-            _accountLogic.GetById(account);
-            return View(account);
+            var user = await _userManager.FindByIdAsync(id);
+
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id = {id} cannot be found";
+                return NotFound();
+            }
+
+            // // GetClaimsAsync retunrs the list of user Claims
+            // var userClaims = await _userManager.GetClaimsAsync(user);
+            // // GetRolesAsync returns the list of user Roles
+            // var userRoles = await _userManager.GetRolesAsync(user);
+
+            var model = new AccountViewModel()
+            {
+                ID = user.Id,
+                FirstName = user.Firstname,
+                Preposition = user.Preposition,
+                LastName = user.Lastname,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                Street = user.Street,
+                HouseNumber = user.Housenumber,
+                Addition = user.Addition,
+                PostalCode = user.Postalcode,
+                City = user.City,
+                Birthdate = user.Birthday
+                // Claims = userClaims.Select(c => c.Value).ToList(),
+                // Roles = userRoles
+            };
+
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Edit(AccountViewModel account)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(AccountViewModel userViewModel)
         {
-            _accountLogic.UpdateAccount(account);
-            return RedirectToAction("Index");
+            var user = await _userManager.FindByIdAsync(userViewModel.ID);
+
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id = {userViewModel.ID} cannot be found";
+                return NotFound();
+            }
+
+
+            user.Firstname = userViewModel.FirstName;
+            user.Preposition = userViewModel.Preposition;
+            user.Lastname = userViewModel.LastName;
+            user.Email = userViewModel.Email;
+            user.PhoneNumber = userViewModel.PhoneNumber;
+            user.Street = userViewModel.Street;
+            user.Housenumber = userViewModel.HouseNumber;
+            user.Addition = userViewModel.Addition;
+            user.Postalcode = userViewModel.PostalCode;
+            user.City = userViewModel.City;
+            user.Birthday = userViewModel.Birthdate;
+
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+
+            return View(userViewModel);
         }
 
-        public ActionResult AllMovies()
-        {
-            return View();
-        }
+
     }
 }

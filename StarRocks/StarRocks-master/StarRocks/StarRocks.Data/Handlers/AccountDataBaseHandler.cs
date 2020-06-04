@@ -28,7 +28,7 @@ namespace StarRocks.Data.Handlers
                     while (reader.Read())
                     {
                         Account dto = new Account();
-                        dto.ID = reader.GetInt32(0);
+                        dto.ID = reader.GetString(0);
                         dto.FirstName = reader.GetString(1);
                         dto.Preposition = reader.GetString(2);
                         dto.LastName = reader.GetString(3);

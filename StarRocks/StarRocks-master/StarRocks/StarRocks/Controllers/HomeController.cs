@@ -106,7 +106,7 @@ namespace StarRocks.Controllers
                         Role = model.Role,
                         EmailConfirmed = true
                     };
-
+                   
                     var result = await _userManager.CreateAsync(user, model.PasswordHash);
 
                     if (result.Succeeded)

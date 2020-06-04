@@ -1,0 +1,108 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using StarRocks.Data.Entities
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@model AccountViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Account pagina</h1>
+
+@if (SignInManager.IsSignedIn(User))
+{
+     <form autocomplete="off" asp-action="Update" method="post">
+        <br />
+        <br />
+        <label for="Vnaam" class="ProfileEditText">Voornaam</label>
+        <br />
+        <input asp-for="FirstName" type="text" id="Vnaam" value="@UserManager.GetUserAsync(User).Result.Firstname">
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <br />
+        <br />
+
+        <label for="Preposition" class="ProfileEditText">Tussenvoegsel</label>
+        <br />
+        <input asp-for="Preposition" type="text" id="Anaam" value="@UserManager.GetUserAsync(User).Result.Preposition">
+        <span asp-validation-for="Preposition" class="text-danger"></span>
+        <br />
+        <br />
+
+        <label for="Anaam" class="ProfileEditText">Achternaam</label>
+        <br />
+        <input asp-for="LastName" type="text" id="Anaam" value="@UserManager.GetUserAsync(User).Result.Lastname">
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <br />
+        <br />
+
+        <label for="email" class="ProfileEditText">Email</label>
+        <br />
+        <input asp-for="Email" type="email" class="registerimput" value="@UserManager.GetUserAsync(User).Result.UserName">
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="PhoneNumber" class="ProfileEditText">Telefoonnummer</label>
+        <br />
+        <input asp-for="PhoneNumber" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.PhoneNumber">
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="Street" class="ProfileEditText">Straat</label>
+        <br />
+        <input asp-for="Street" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.Street">
+        <span asp-validation-for="Street" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="HouseNumber" class="ProfileEditText">Huisnummer</label>
+        <br />
+        <input asp-for="HouseNumber" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.Housenumber">
+        <span asp-validation-for="HouseNumber" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="Addition" class="ProfileEditText">Toevoeging</label>
+        <br />
+        <input asp-for="Addition" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.Addition">
+        <span asp-validation-for="Addition" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="Postcalcode" class="ProfileEditText">Postcode</label>
+        <br />
+        <input asp-for="PostalCode" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.Postalcode">
+        <span asp-validation-for="PostalCode" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="City" class="ProfileEditText">Stad</label>
+        <br />
+        <input asp-for="City" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.City">
+        <span asp-validation-for="City" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="Birthday" class="ProfileEditText">Verjaardag</label>
+        <br />
+        <input asp-for="Birthdate" type="text" class="registerimput" value="@UserManager.GetUserAsync(User).Result.Birthday">
+        <span asp-validation-for="Birthdate" class="text-danger"></span>
+        <br>
+        <br>
+
+        <label for="wachtwoord1" class="registerimputt">Wachtwoord</label>
+        <br />
+        <input asp-for="Password" placeholder="Wachtwoord" type="password" class="registerimput" value="">
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <br>
+        <br>
+
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <br />
+
+        <input type="submit" class="RegistreerBtn" value="Update" >
+    </form>
+}

@@ -7,7 +7,7 @@ namespace StarRocks.Data.Entities
 {
     public class Account : IAccount
     {
-        public int ID { get; set; }
+        public string ID { get; set; }
         public string FirstName { get; set; }
         public string Preposition { get; set; }
         public string LastName { get; set; }
