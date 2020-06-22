@@ -30,9 +30,9 @@ namespace StarRocks.Logic
             return eventDataBaseHandler.GetAllEvents();
         }
 
-        public IEvent GetById(IEvent _event)
+        public IEvent GetById(IEvent ID)
         {
-            throw new NotImplementedException();
+           return eventDataBaseHandler.GetById(ID);
         }
 
         public ICategorie_Interest UpdateEvent(IEvent _event)

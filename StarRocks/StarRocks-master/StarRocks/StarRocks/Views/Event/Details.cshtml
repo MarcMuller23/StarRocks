@@ -1,0 +1,29 @@
+﻿@model StarRocks.Models.EventViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <div class="card" style="max-width:100%; max-height:100%;">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="~/Images/@Html.DisplayFor(ModelItem =>Model.ID) event.jpg" style="width:450px; height:300px;"/>
+            </div>
+            <div class="col">
+                <div class="card-block px-2">
+                    <h4 class="card-title font-weight-bolder p-2 text-center">@Model.Name</h4>
+                    <p class="card-text font-italic">@Model.Description</p>
+      
+                    <p class="card-text font-weight-bold pt-4">Locatie:  @Model.Location</p>
+                    <p class="card-text font-weight-bold">Datum:  @Model.Date</p>
+                    
+                    <button class="btn btn-primary">@Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = Model.ID })</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+            <p class="card-text font-weight-bold">Beschikbare plekken: @Model.MaxCapacity</p>
+        </div>
+    </div>
+ 

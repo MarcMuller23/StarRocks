@@ -26,3 +26,17 @@ D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csproj.CopyComplete
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.dll
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.deps.json
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Logic.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Data.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Data.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\bin\Debug\netcoreapp3.1\StarRocks.Interfaces.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csprojAssemblyReference.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.AssemblyInfoInputs.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.AssemblyInfo.cs
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csproj.CoreCompileInputs.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.csproj.CopyComplete
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Logic\obj\Debug\netcoreapp3.1\StarRocks.Logic.pdb

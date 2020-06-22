@@ -61,3 +61,12 @@ C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarR
 C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfo.cs
 C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.dll
 C:\Users\Kursat\Desktop\asd\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.deps.json
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\bin\Debug\netstandard2.0\StarRocks.Interfaces.pdb
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csprojAssemblyReference.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfoInputs.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.AssemblyInfo.cs
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.csproj.CoreCompileInputs.cache
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.dll
+D:\Proftaak\StarRocks-master\StarRocks-master\StarRocks\StarRocks-master\StarRocks\StarRocks.Interfaces\obj\Debug\netstandard2.0\StarRocks.Interfaces.pdb

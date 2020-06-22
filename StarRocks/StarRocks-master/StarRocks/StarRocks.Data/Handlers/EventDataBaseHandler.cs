@@ -102,16 +102,33 @@ namespace StarRocks.Data.Handlers
 
         public IEvent GetById(IEvent _event)
         {
+            IEvent events = new Event();
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 string query = "SELECT * FROM event WHERE ID = @ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
+                    conn.Open();
                     command.Parameters.AddWithValue("@ID", _event.ID);
+
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        events.ID = reader.GetInt32(0);
+                        events.AccountID = reader.GetInt32(1);
+                        events.CategoryID = reader.GetInt32(2);
+                        events.Name = reader.GetString(3);
+                        events.Description = reader.GetString(4);
+                        events.Date = reader.GetDateTime(5);
+                        events.Location = reader.GetString(6);
+                        events.MaxCapacity = reader.GetInt32(7);
+
+                    }
 
                 }
             }
-            return _event;
+            return events;
         }
     }
 }
