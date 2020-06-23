@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
       "projectName": "StarRocks.Interfaces",
-      "projectPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+      "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
       "packagesPath": "C:\\Users\\Kursat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
+      "outputPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kursat\\AppData\\Roaming\\NuGet\\NuGet.Config",

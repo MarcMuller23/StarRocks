@@ -10,6 +10,6 @@ namespace StarRocks.Models
     {
         public int ID { get; set; }
         public int EventID { get; set; }
-        public int AccountID { get; set; }
+        public string AccountID { get; set; }
     }
 }

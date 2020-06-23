@@ -25,6 +25,7 @@ namespace StarRocks.Controllers
 
 
         //Read in CRUD
+        [HttpGet]
         public async Task<IActionResult> Index(string id)
         {
 
@@ -49,7 +50,7 @@ namespace StarRocks.Controllers
                 Preposition = user.Preposition,
                 LastName = user.Lastname,
                 Email = user.Email,
-                PhoneNumber = user.PhoneNumber,
+                PhoneNumber = phoneNumber,
                 Street = user.Street,
                 HouseNumber = user.Housenumber,
                 Addition = user.Addition,
@@ -62,6 +63,48 @@ namespace StarRocks.Controllers
 
             return View(model);
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Index(AccountViewModel userViewModel)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id = {userViewModel.ID} cannot be found";
+                return NotFound();
+            }
+
+
+            user.Firstname = userViewModel.FirstName;
+            user.Preposition = userViewModel.Preposition;
+            user.Lastname = userViewModel.LastName;
+            user.Email = userViewModel.Email;
+            user.PhoneNumber = userViewModel.PhoneNumber;
+            user.Street = userViewModel.Street;
+            user.Housenumber = userViewModel.HouseNumber;
+            user.Addition = userViewModel.Addition;
+            user.Postalcode = userViewModel.PostalCode;
+            user.City = userViewModel.City;
+            user.Birthday = userViewModel.Birthdate;
+
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+
+            return View(userViewModel);
+        }
+
+  
 
         //Delete in CRUD
         public ActionResult Delete(int ID)
@@ -124,45 +167,45 @@ namespace StarRocks.Controllers
             return View(model);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(AccountViewModel userViewModel)
-        {
-            var user = await _userManager.FindByIdAsync(userViewModel.ID);
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Update(AccountViewModel userViewModel)
+        //{
+        //    var user = await _userManager.FindByIdAsync(userViewModel.ID);
 
-            if (user == null)
-            {
-                ViewBag.ErrorMessage = $"User with Id = {userViewModel.ID} cannot be found";
-                return NotFound();
-            }
+        //    if (user == null)
+        //    {
+        //        ViewBag.ErrorMessage = $"User with Id = {userViewModel.ID} cannot be found";
+        //        return NotFound();
+        //    }
 
 
-            user.Firstname = userViewModel.FirstName;
-            user.Preposition = userViewModel.Preposition;
-            user.Lastname = userViewModel.LastName;
-            user.Email = userViewModel.Email;
-            user.PhoneNumber = userViewModel.PhoneNumber;
-            user.Street = userViewModel.Street;
-            user.Housenumber = userViewModel.HouseNumber;
-            user.Addition = userViewModel.Addition;
-            user.Postalcode = userViewModel.PostalCode;
-            user.City = userViewModel.City;
-            user.Birthday = userViewModel.Birthdate;
+        //    user.Firstname = userViewModel.FirstName;
+        //    user.Preposition = userViewModel.Preposition;
+        //    user.Lastname = userViewModel.LastName;
+        //    user.Email = userViewModel.Email;
+        //    user.PhoneNumber = userViewModel.PhoneNumber;
+        //    user.Street = userViewModel.Street;
+        //    user.Housenumber = userViewModel.HouseNumber;
+        //    user.Addition = userViewModel.Addition;
+        //    user.Postalcode = userViewModel.PostalCode;
+        //    user.City = userViewModel.City;
+        //    user.Birthday = userViewModel.Birthdate;
 
-            var result = await _userManager.UpdateAsync(user);
+        //    var result = await _userManager.UpdateAsync(user);
 
-            if (result.Succeeded)
-            {
-                return RedirectToAction("Index");
-            }
+        //    if (result.Succeeded)
+        //    {
+        //        return RedirectToAction("Index");
+        //    }
 
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError("", error.Description);
-            }
+        //    foreach (var error in result.Errors)
+        //    {
+        //        ModelState.AddModelError("", error.Description);
+        //    }
 
-            return View(userViewModel);
-        }
+        //    return View(userViewModel);
+        //}
 
 
     }

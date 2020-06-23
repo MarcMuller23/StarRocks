@@ -3314,7 +3314,10 @@
         },
         "runtime": {
           "bin/placeholder/StarRocks.Data.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "StarRocks.Interfaces/1.0.0": {
         "type": "project",
@@ -3339,7 +3342,10 @@
         },
         "runtime": {
           "bin/placeholder/StarRocks.Logic.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -9928,11 +9934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
       "projectName": "StarRocks",
-      "projectPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
       "packagesPath": "C:\\Users\\Kursat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
+      "outputPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kursat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9948,11 +9954,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             },
-            "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
+            "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
+              "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
             }
           }
         }

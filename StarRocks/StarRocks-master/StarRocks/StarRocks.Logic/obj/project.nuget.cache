@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T88JDFvPoPSw2vCg3X45CI30F34Vj9URrNsUSobGKOfS2jL5U/xNGhGdp5dB01a55WxAF2Q1Mllu52cpzL6okA==",
+  "dgSpecHash": "IoiUS1xCysu0cCuTHc1s/t1maUrNvPoiBKmxVkljRW5f+idtZVTL4mJm6xYHMOf5BOfuWRxc9TtMXtmmITJv/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+  "projectFilePath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kursat\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Kursat\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

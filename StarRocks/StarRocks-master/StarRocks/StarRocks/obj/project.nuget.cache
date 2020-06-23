@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MPwM8XlrAEBJLTOn9FFHu3Bg0myxF4CVu0xR/gqQEsmqD+Dcs8usUOIN8mbdrqs5tiYAjn/YvI9HDM8gVFAF9Q==",
+  "dgSpecHash": "qmjWsTo9UybheKn5H9Tj5eLLpkIFmZxMU7lsKeJjhNJ4wI4uUmG9gGvHaaPcY7fPT+oEnedaKmycLRe5+XLMOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kursat\\Desktop\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+  "projectFilePath": "C:\\Users\\Kursat\\Desktop\\HW\\Branch\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kursat\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Kursat\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

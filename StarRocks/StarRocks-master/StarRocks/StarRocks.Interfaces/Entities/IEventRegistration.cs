@@ -8,6 +8,6 @@ namespace StarRocks.Interfaces.Entities
     {
         int ID { get; set; }
         int EventID { get; set; }
-        int AccountID { get; set; }
+        string AccountID { get; set; }
     }
 }

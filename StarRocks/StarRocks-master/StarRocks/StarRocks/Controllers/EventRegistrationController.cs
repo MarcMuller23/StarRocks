@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StarRocks.Data;
@@ -25,6 +26,9 @@ namespace StarRocks.Controllers
             var allEventRegistrations = _eventRegistrationLogic.GetAllEventRegistrations();
             var eventRegistrations = new List<EventRegistrationViewModel>();
 
+            
+
+
             foreach (var eventRegistration in allEventRegistrations)
             {
                 eventRegistrations.Add(new EventRegistrationViewModel
@@ -47,10 +51,14 @@ namespace StarRocks.Controllers
         [HttpGet]
         public ActionResult Create(int id)
         {
+
+            var claimsIdentity = (ClaimsIdentity) User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
             var eventRegistrationViewModel = new EventRegistrationViewModel()
             {
                 EventID = id,
-                AccountID = 1
+                AccountID = claim.Value
             };
 
             return View(eventRegistrationViewModel);

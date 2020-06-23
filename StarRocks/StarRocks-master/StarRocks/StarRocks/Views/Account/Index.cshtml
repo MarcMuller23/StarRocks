@@ -12,7 +12,7 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-     <form autocomplete="off" asp-action="Update" method="post">
+     <form autocomplete="off" asp-action="Index" method="post">
         <br />
         <br />
         <label for="Vnaam" class="ProfileEditText">Voornaam</label>
@@ -103,6 +103,6 @@
         <div asp-validation-summary="All" class="text-danger"></div>
         <br />
 
-        <input type="submit" class="RegistreerBtn" value="Update" >
+        <input type="submit" class="RegistreerBtn" value="Index" >
     </form>
 }

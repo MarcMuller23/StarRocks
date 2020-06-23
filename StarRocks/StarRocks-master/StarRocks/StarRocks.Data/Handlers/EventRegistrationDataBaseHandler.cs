@@ -38,7 +38,7 @@ namespace StarRocks.Data.Handlers
                     {
                         EventRegistration dto = new EventRegistration();
                         dto.EventID = reader.GetInt32(0);
-                        dto.AccountID = reader.GetInt32(1);
+                        dto.AccountID = reader.GetString(1);
                         eventRegistrations.Add(dto);
                     }
                 }
