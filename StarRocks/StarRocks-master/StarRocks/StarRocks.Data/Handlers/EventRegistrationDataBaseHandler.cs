@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using StarRocks.Data.Entities;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
 using System;
@@ -75,6 +76,20 @@ namespace StarRocks.Data.Handlers
                 {
                     command.Parameters.AddWithValue("@EventID", E1.EventID);
                     command.Parameters.AddWithValue("@AccountID", E1.AccountID);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void UpdateCapacity(IEvent E1)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "UPDATE event SET MaxCapacity = MaxCapacity - 1 WHERE ID=@ID; ";
+                using (MySqlCommand command = new MySqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", E1.ID);
                     command.ExecuteNonQuery();
                 }
             }

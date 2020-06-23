@@ -58,9 +58,10 @@ namespace StarRocks.Controllers
 
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public ActionResult Create(EventRegistrationViewModel eventRegistration)
+        public ActionResult Create(EventRegistrationViewModel eventRegistration, EventViewModel _event)
         {
-            _eventRegistrationLogic.CreateEventRegistration(eventRegistration);
+            _eventRegistrationLogic.CreateEventRegistration(eventRegistration, _event);
+            //_eventRegistrationLogic.UpdateCapacity(_event);
 
             return View("Success");
             

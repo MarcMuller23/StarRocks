@@ -10,5 +10,6 @@ namespace StarRocks.Data.Entities
         public int ID { get; set; }
         public int EventID { get; set; }
         public int AccountID { get; set; }
+        public int MaxCapacity { get; set; }
     }
 }

@@ -9,12 +9,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using StarRocks.Data.Entities;
 using StarRocks.Data.Roles;
+using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Models;
 
 namespace StarRocks.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IEventLogic _eventLogic;
         private readonly ILogger<HomeController> _logger;
 
         private readonly UserManager<User> _userManager;
@@ -24,17 +26,36 @@ namespace StarRocks.Controllers
         [BindProperty] public UserRegisterViewModel UserRegisterViewModel { get; set; }
 
         public HomeController(ILogger<HomeController> logger, RoleManager<IdentityRole> roleManager,
-            UserManager<User> userManager, SignInManager<User> signInManager)
+            UserManager<User> userManager, SignInManager<User> signInManager, IEventLogic eventLogic)
         {
             _logger = logger;
             _roleManager = roleManager;
             _userManager = userManager;
             _signInManager = signInManager;
+            _eventLogic = eventLogic;
         }
+
 
         public IActionResult Index()
         {
-            return View();
+            var allEvents = _eventLogic.GetAllEvents();
+            var _events = new List<EventViewModel>();
+
+            foreach (var _event in allEvents)
+            {
+                _events.Add(new EventViewModel
+                {
+                    ID = _event.ID,
+                    AccountID = _event.AccountID,
+                    CategoryID = _event.CategoryID,
+                    Date = _event.Date,
+                    Description = _event.Description,
+                    Location = _event.Location,
+                    MaxCapacity = _event.MaxCapacity,
+                    Name = _event.Name
+                });
+            }
+            return View(_events);
         }
 
         public IActionResult Privacy()

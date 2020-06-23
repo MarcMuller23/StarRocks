@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<StarRocks.Models.EventViewModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,6 +9,84 @@
     <div class="centered">Team Up IT!</div>
 </div>
 <br />
+
+<div class="card p-xl-3 bg-transparent">
+    <h2 class="text-center font-weight-bold "> Last Minute Events!</h2>
+    <hr />
+    `
+    <div class="card-deck">
+        <div class="card" style="width:400px;">
+            <img class="card-img-top" src="https://cdn.discordapp.com/attachments/697767886344683560/714781271368269934/RST-062-img-teamUPit-2020-DaviddeHoop-600x521.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Pizzasessie Chapter North | David de Hoop – GitLab</h4>
+                <p class="card-text">22 mei, 2020</p>
+                @{
+                    foreach (var item in Model)
+                    {
+
+                        if (item.ID == 3)
+                        {
+                            <p>Aantal plekken: @item.MaxCapacity</p>
+                            break;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="card" style="width:400px;">
+            <img class="card-img-top" src="https://cdn.discordapp.com/attachments/697767886344683560/714776210781110362/RST-062-img-teamUPit-GLGroups-boardgames-600x521.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Chapter West: Digitale Bordspellenavond (YESS!) </h4>
+                <p class="card-text">mei 29, 2020</p>
+                @{
+                    foreach (var item in Model)
+                    {
+
+                        if (item.ID == 3)
+                        {
+                            <p>Aantal plekken: @item.MaxCapacity</p>
+                            break;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="card" style="width:400px;">
+            <img class="card-img-top" src="https://cdn.discordapp.com/attachments/697767886344683560/714776210781110362/RST-062-img-teamUPit-GLGroups-boardgames-600x521.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                @{
+                    foreach (var item in Model)
+                    {
+
+                        if (item.ID == 3)
+                        {
+                            <p>Aantal plekken: @item.MaxCapacity</p>
+                            break;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <br />
+    <button class="btn-dark" type="button" onclick="location.href='@Url.Action("Index","Event")'">View all events!</button>
+</div>
 
 <div class="card p-xl-3 bg-transparent">
     <h2 class="text-center font-weight-bold "> Upcoming Events!</h2>

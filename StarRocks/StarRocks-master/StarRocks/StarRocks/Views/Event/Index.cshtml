@@ -24,6 +24,8 @@
             <div class="row pt-3">
                 <div class="col font-weight-bolder">
                     @Html.DisplayFor(ModelItem => item.Date)
+                    <br />
+                    Plekken over: @Html.DisplayFor(ModelItem => item.MaxCapacity)
 
 
                 </div>
@@ -33,7 +35,7 @@
                 </div>
                 <div class="col text-white">
 
-                    @Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = item.ID })|
+                    @Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = item.ID, maxCapacity = item.MaxCapacity })|
                     @*<button class="btn-warning float-right" type="button" onclick="location.href='@Url.Action("Index", "Event")'">Sign In!</button>*@
 
                 </div>

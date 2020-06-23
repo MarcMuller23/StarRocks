@@ -16,7 +16,7 @@ namespace StarRocks.Data.Entities
         public string Street { get; set; }
         public int Housenumber { get; set; }
         public string Addition { get; set; }
-        public string Postcalcode { get; set; }
+        public string Postalcode { get; set; }
         public string City { get; set; }
         public DateTime Birthday { get; set; }
 
