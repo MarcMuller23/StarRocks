@@ -21,7 +21,6 @@ namespace StarRocks.Controllers
         //Read in CRUD
         public ActionResult Index()
         {
-
             var allNewsMessages = _newsMessageLogic.GetAllNewsMessages();
             var newsMessages = new List<NewsMessageViewModel>();
 

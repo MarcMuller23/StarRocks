@@ -14,6 +14,7 @@ using StarRocks.Data;
 using StarRocks.Data.Entities;
 using StarRocks.Data.Handlers;
 using StarRocks.Data.Roles;
+using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
 using StarRocks.Interfaces.Logic_Classes;
 using StarRocks.Logic;
@@ -83,6 +84,7 @@ namespace StarRocks
             services.AddScoped<INewsMessageLogic, NewsMessageLogic>();
             services.AddScoped<IReminderLogic, ReminderLogic>();
             services.AddScoped<IReviewLogic, ReviewLogic>();
+          //  services.AddScoped<IUser, User>();
             //db
             services.AddScoped<IAccountDataBaseHandler, AccountDataBaseHandler>();
             services.AddScoped<ICategoryDataBaseHandler, CatagoryDataBaseHandler>();

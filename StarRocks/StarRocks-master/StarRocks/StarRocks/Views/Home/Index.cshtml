@@ -1,4 +1,10 @@
-﻿@{
+﻿@using StarRocks.Data.Entities
+@using Microsoft.AspNetCore.Identity
+@using StarRocks.Interfaces.Entities
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -10,8 +16,8 @@
 <br />
 
 <div class="card p-xl-3 bg-transparent">
-    <h2 class="text-center font-weight-bold "> Upcoming Events!</h2>
-    <hr />
+    <h2 class="text-center font-weight-bold "> Upcoming Events! </h2>
+    <hr/>
     `
     <div class="card-deck">
         <div class="card" style="width:400px;">
@@ -38,8 +44,8 @@
             </div>
         </div>
     </div>
-    <br />
-    <button class="btn-dark" type="button" onclick="location.href='@Url.Action("Index","Event")'">View all events!</button>
+    <br/>
+    <button class="btn-dark" type="button" onclick="location.href='@Url.Action("Index", "Event")'">View all events!</button>
 </div>
 
 

@@ -1,4 +1,9 @@
-﻿@model IEnumerable<StarRocks.Models.EventViewModel>
+﻿@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+@using StarRocks.Data.Entities
+@using Microsoft.AspNetCore.Identity
+@model IEnumerable<StarRocks.Models.EventViewModel>
 
 @{
     ViewData["Title"] = "Home Page";

@@ -104,7 +104,9 @@ namespace StarRocks.Controllers
                         Email = model.Email,
                         UserName = model.Email,
                         Role = model.Role,
-                        EmailConfirmed = true
+                        EmailConfirmed = true,
+                        Firstname = model.Firstname,
+                        Lastname = model.Lastname
                     };
 
                     var result = await _userManager.CreateAsync(user, model.PasswordHash);
