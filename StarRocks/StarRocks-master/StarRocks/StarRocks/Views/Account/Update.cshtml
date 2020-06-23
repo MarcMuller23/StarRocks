@@ -12,9 +12,10 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-     <form autocomplete="off" asp-action="Update" method="post">
+     <form autocomplete="off" asp-controller="Account" asp-action="Update" method="post">
+         
         <br />
-        <br />
+        @*<br />*@
         <label for="Vnaam" class="ProfileEditText">Voornaam</label>
         <br />
         <input asp-for="FirstName" type="text" id="Vnaam" value="@UserManager.GetUserAsync(User).Result.Firstname">

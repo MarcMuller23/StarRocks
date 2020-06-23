@@ -90,7 +90,8 @@ namespace StarRocks.Controllers
         [HttpGet]
         public async Task<IActionResult> Update(string id)
         {
-            var user = await _userManager.FindByIdAsync(id);
+            var user = await _userManager.GetUserAsync(User);
+            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
 
             if (user == null)
             {
@@ -128,7 +129,7 @@ namespace StarRocks.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(AccountViewModel userViewModel)
         {
-            var user = await _userManager.FindByIdAsync(userViewModel.ID);
+            var user = await _userManager.GetUserAsync(User);
 
             if (user == null)
             {
@@ -153,7 +154,7 @@ namespace StarRocks.Controllers
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Update");
             }
 
             foreach (var error in result.Errors)
@@ -161,7 +162,7 @@ namespace StarRocks.Controllers
                 ModelState.AddModelError("", error.Description);
             }
 
-            return View(userViewModel);
+            return View();
         }
 
 

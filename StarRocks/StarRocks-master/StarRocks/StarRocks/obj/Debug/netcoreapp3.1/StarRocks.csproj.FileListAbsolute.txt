@@ -1111,4 +1111,4 @@ D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\bin\De
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cs
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\AccessDenied.cshtml.g.cs
 D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+D:\Git\StarRocks\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Account\Update.cshtml.g.cs

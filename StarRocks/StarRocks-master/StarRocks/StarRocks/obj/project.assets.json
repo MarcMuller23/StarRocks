@@ -3314,7 +3314,10 @@
         },
         "runtime": {
           "bin/placeholder/StarRocks.Data.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "StarRocks.Interfaces/1.0.0": {
         "type": "project",
@@ -3339,7 +3342,10 @@
         },
         "runtime": {
           "bin/placeholder/StarRocks.Logic.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -10003,7 +10009,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

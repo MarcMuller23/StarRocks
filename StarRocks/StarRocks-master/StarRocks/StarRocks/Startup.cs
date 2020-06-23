@@ -38,7 +38,7 @@ namespace StarRocks
             services.AddTransient<ApplicationDbContext>();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySQL("server=php.meelsnet.nl;user id=mmuller;database=mmuller_proftaak;password=Hoi123"));
+                options.UseMySQL("server=meelsnet.nl;user id=mmuller;database=mmuller_proftaak;password=Hoi123"));
 
             services.AddIdentity<User, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>()

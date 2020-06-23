@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vPWFPK0GgBK+FFI750qQxmhkDa/w43VHWYxGlT+d4Oah+YYEp6diUczAecBE1QIxYcOfhAaVu+nxzsaCgthb6w==",
+  "dgSpecHash": "Ul/l4OlwBIJU31FM0hW+MqYV4k4XSlzs4GxbpR7Wc34Tkfx6Q9QkIIinORpkUZLIcsk5N+gRz8rJ9zCVEwaLNQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
   "expectedPackageFiles": [
