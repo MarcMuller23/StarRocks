@@ -108,7 +108,7 @@ namespace StarRocks.Controllers
                         Firstname = model.Firstname,
                         Lastname = model.Lastname
                     };
-
+                   
                     var result = await _userManager.CreateAsync(user, model.PasswordHash);
 
                     if (result.Succeeded)

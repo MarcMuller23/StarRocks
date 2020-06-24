@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9TSkmTLfAHB3u6n3NMPbbgyrix55V5wFe7EUmYEFbY1DObH+8gd8aL/ylRZsPWiqSfaEptxkPp5EQ0aKOtlong==",
+  "dgSpecHash": "Ul/l4OlwBIJU31FM0hW+MqYV4k4XSlzs4GxbpR7Wc34Tkfx6Q9QkIIinORpkUZLIcsk5N+gRz8rJ9zCVEwaLNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+  "projectFilePath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kursat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Kursat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\marc_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\marc_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

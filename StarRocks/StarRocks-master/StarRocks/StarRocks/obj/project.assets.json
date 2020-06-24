@@ -9929,19 +9929,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kursat\\.nuget\\packages\\": {}
+    "C:\\Users\\marc_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "projectUniqueName": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
       "projectName": "StarRocks",
-      "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
-      "packagesPath": "C:\\Users\\Kursat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
+      "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\StarRocks.csproj",
+      "packagesPath": "C:\\Users\\marc_\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kursat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marc_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9954,11 +9954,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             },
-            "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
+            "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj": {
+              "projectPath": "D:\\Git\\StarRocks\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj"
             }
           }
         }
@@ -10001,12 +10001,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10015,7 +10009,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,7 +7,7 @@ namespace StarRocks.Logic.Model
 {
     class Account : IAccount
     {
-        public int ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string FirstName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Preposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string LastName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }

@@ -8,18 +8,18 @@ namespace StarRocks.Models
 {
     public class AccountViewModel : IAccount
     {
-        public int ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string FirstName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Preposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string LastName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Email { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Password { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string PhoneNumber { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Street { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int HouseNumber { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Addition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string PostalCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string City { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime Birthdate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ID { get; set; }
+        public string FirstName { get; set; }
+        public string Preposition { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Street { get; set; }
+        public int HouseNumber { get; set; }
+        public string Addition { get; set; }
+        public string PostalCode { get; set; }
+        public string City { get; set; }
+        public DateTime Birthdate { get; set; }
     }
 }
