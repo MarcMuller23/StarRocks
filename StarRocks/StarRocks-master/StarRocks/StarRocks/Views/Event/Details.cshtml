@@ -16,9 +16,10 @@
 
                 <p class="card-text font-weight-bold">Locatie:  @Model.Location</p>
                 <p class="card-text font-weight-bold">Datum:  @Model.Date</p>
-
-                <button class="btn btn-primary">@Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = Model.ID })</button>
-
+                <form asp-controller="EventRegistration" asp-action="Create" method="get">
+                    <input type="hidden" name="Id" value="@Model.ID" />
+                    <button type="submit" class="btn btn-primary">Inschrijven</button>
+                </form>
             </div>
         </div>
     </div>

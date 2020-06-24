@@ -9,9 +9,10 @@
 
 <form method="post">
     <div class="Login">
-        <button type="submit" asp-controller="EventRegistration" asp-action="Create">Inschrijven</button>
-        <button type="submit" asp-controller="Event" asp-action="Index">Annuleren</button>
-        <input type="hidden" asp-for="EventID"/>
-        <input type="hidden" asp-for="AccountID"/>       
+        <input type="submit" asp-controller="EventRegistration" asp-action="Create" class="loginbutton" value="Inschrijven">
+        <input type="submit" asp-controller="Event" asp-action="Index" class="loginbutton" value="Annuleren">
+        <input type="hidden" asp-for="EventID" />
+        <input type="hidden" asp-for="AccountID" /><br /><br /><br />
+        <img src="https://www.scalacollege.nl/web/images/uploads/inschrijven.gif" alt="Inschrijven" />
     </div>
 </form>

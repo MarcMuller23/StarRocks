@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace StarRocks.Controllers
 {
-    [Authorize(Roles = Roles.Admin)]
+    [Authorize]
     public class AccountController : Controller
     {
         private readonly IAccountLogic _accountLogic;

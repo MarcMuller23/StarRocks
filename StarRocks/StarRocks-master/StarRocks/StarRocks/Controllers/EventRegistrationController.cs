@@ -67,8 +67,8 @@ namespace StarRocks.Controllers
         {
             _eventRegistrationLogic.CreateEventRegistration(eventRegistration);
 
-            return View("Success");
-            
+            return RedirectToAction("Index", "Event");
+
         }
 
         //Edit in CRUD
