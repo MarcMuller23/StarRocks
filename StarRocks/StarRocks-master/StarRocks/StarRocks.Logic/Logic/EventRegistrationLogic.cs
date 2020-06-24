@@ -1,4 +1,5 @@
 ﻿using Org.BouncyCastle.Asn1.Mozilla;
+using StarRocks.Interfaces;
 using StarRocks.Interfaces.Entities;
 using StarRocks.Interfaces.Handlers;
 using StarRocks.Interfaces.Logic_Classes;
@@ -29,6 +30,7 @@ namespace StarRocks.Logic
             };
             
             _eventRegistrationDataBaseHandler.CreateEventRegistration(_eventRegistration);
+            _eventRegistrationDataBaseHandler.UpdateCapacity(eventRegistration.EventID);
         }
 
         public List<IEventRegistration> GetAllEventRegistrations()
