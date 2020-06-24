@@ -38,7 +38,7 @@ namespace StarRocks.Data.Handlers
                     {
                         EventRegistration dto = new EventRegistration();
                         dto.EventID = reader.GetInt32(0);
-                        dto.AccountID = reader.GetInt32(1);
+                        dto.AccountID = reader.GetString(1);
                         eventRegistrations.Add(dto);
                     }
                 }
@@ -51,14 +51,14 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                
+                conn.Open();
                 string query = "INSERT INTO eventregistration(EventID,AccountID)VALUES(@EventID,@AccountID); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@EventID", E1.EventID);
                     command.Parameters.AddWithValue("@AccountID", E1.AccountID);
-                    conn.Open();
+                    
                     command.ExecuteNonQuery();
                 }
             }

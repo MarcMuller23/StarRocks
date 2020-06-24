@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+    "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
     "projectName": "StarRocks.Interfaces",
-    "projectPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
-    "outputPath": "C:\\Users\\Kursat\\Desktop\\HW\\Proftaak\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
+    "projectPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+    "outputPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netstandard2.0"
