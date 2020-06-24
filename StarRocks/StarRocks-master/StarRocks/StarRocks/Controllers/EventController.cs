@@ -112,5 +112,27 @@ namespace StarRocks.Controllers
 
             return View();
         }
+
+        public ViewResult Details(int ID)
+        {
+            var eventviewmodel = new EventViewModel()
+            {
+                ID = ID,
+            };
+            var eventdetails = _eventLogic.GetById(eventviewmodel);
+            var viewmodel = new EventViewModel()
+            {
+                ID = eventdetails.ID,
+                CategoryID = eventdetails.CategoryID,
+                AccountID = eventdetails.AccountID,
+                Date = eventdetails.Date,
+                Description = eventdetails.Description,
+                Name = eventdetails.Name,
+                Location = eventdetails.Location,
+                MaxCapacity = eventdetails.MaxCapacity
+            };
+
+            return View(viewmodel);
+        }
     }
 }

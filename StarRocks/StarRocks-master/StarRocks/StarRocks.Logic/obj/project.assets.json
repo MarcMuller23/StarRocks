@@ -3003,10 +3003,7 @@
         },
         "runtime": {
           "bin/placeholder/StarRocks.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "StarRocks.Interfaces/1.0.0": {
         "type": "project",
@@ -9109,20 +9106,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kursat\\.nuget\\packages\\": {}
+    "C:\\Users\\joeps\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
       "projectName": "StarRocks.Logic",
-      "projectPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
-      "packagesPath": "C:\\Users\\Kursat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\obj\\",
+      "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\StarRocks.Logic.csproj",
+      "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Logic\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kursat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9134,11 +9136,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj"
+            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj": {
+              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Data\\StarRocks.Data.csproj"
             },
-            "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
+            "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj"
             }
           }
         }

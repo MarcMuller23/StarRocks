@@ -32,12 +32,13 @@ namespace StarRocks.Logic
 
         public IEvent GetById(IEvent _event)
         {
-            throw new NotImplementedException();
+            return eventDataBaseHandler.GetById(_event);
         }
 
         public ICategorie_Interest UpdateEvent(IEvent _event)
         {
             throw new NotImplementedException();
         }
+
     }
 }

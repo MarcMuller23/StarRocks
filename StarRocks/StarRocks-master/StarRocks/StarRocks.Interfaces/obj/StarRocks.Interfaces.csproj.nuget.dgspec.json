@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {}
+    "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
+    "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
         "projectName": "StarRocks.Interfaces",
-        "projectPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Kursat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kursat\\Desktop\\star\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\StarRocks.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\joeps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joeps\\Source\\Repos\\MarcMuller23\\StarRocks\\StarRocks\\StarRocks-master\\StarRocks\\StarRocks.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kursat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\joeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

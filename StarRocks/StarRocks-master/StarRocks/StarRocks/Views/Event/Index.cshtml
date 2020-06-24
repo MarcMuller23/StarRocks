@@ -16,25 +16,23 @@
             <h2 class="font-weight-bold text-center pb3">@Html.DisplayFor(ModelItem => item.Name)</h2>
             <div class="row pt-3">
                 <div class="col-5 img-fluid"><img src="~/Images/@Html.DisplayFor(ModelItem =>item.ID) event.jpg" style="width:350px; height:200px;" /></div>
-                <div class="col-7 font-weight-light ">
+                <div class="col-7 font-weight-light">
                     @Html.DisplayFor(ModelItem => item.Description)
                 </div>
             </div>
-
-            <div class="row pt-3">
+            <hr />
+            <div class="row">
                 <div class="col font-weight-bolder">
                     @Html.DisplayFor(ModelItem => item.Date)
-
-
                 </div>
-                <div class="col-6 font-weight-bolder">
+
+                <div class="col font-weight-bolder">
                     @Html.DisplayFor(ModelItem => item.Location)
-
                 </div>
-                <div class="col text-white">
 
-                    @Html.ActionLink("Inschrijven", "Create", "EventRegistration", new { ID = item.ID })|
-                    @*<button class="btn-warning float-right" type="button" onclick="location.href='@Url.Action("Index", "Event")'">Sign In!</button>*@
+                <div class="col6 text-white">
+
+                    <button class="btn btn-warning">@Html.ActionLink("Lees meer!", "Details", "Event", new { ID = item.ID })</button>
 
                 </div>
             </div>
@@ -42,4 +40,3 @@
     </div>
     <hr />
 }
-
