@@ -74,7 +74,7 @@ namespace StarRocks.Data.Handlers
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "UPDATE werknemer SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
+                string query = "UPDATE event SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@ID", E1.AccountID);
