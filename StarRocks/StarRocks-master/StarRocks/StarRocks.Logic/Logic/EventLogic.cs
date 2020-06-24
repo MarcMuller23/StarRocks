@@ -17,7 +17,7 @@ namespace StarRocks.Logic
         }
         public void CreateEvent(IEvent _event)
         {
-            throw new NotImplementedException();
+            eventDataBaseHandler.CreateEvent(_event);
         }
 
         public void DeleteEvent(int eventeId)
@@ -35,9 +35,10 @@ namespace StarRocks.Logic
             return eventDataBaseHandler.GetById(_event);
         }
 
-        public ICategorie_Interest UpdateEvent(IEvent _event)
+        public IEvent UpdateEvent(IEvent _event)
         {
-            throw new NotImplementedException();
+            eventDataBaseHandler.UpdateEvent(_event);
+            return _event;
         }
 
     }

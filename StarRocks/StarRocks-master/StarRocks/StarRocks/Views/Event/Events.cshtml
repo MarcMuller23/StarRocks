@@ -6,9 +6,8 @@
 
 <h1 class="display-5 AdminTitle">Events List</h1>
 <ul class="AdminNav">
-    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminProfile">Profiel</a></li>
-    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Admin" asp-action="AdminInbox">Inbox</a></li>
-    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="test">Events</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="Events">Events</a></li>
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="CreateEvent">Event Aanmaken</a></li>
 </ul>
 
 
@@ -53,7 +52,7 @@
                 @Html.DisplayFor(modelItem => item.MaxCapacity)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                @Html.ActionLink("Edit", "UpdateEvent", new { id=item.ID }) |
                 @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
                 @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');" })
 

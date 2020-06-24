@@ -1,0 +1,51 @@
+﻿@using StarRocks.Controllers
+@model StarRocks.Models.EventViewModel
+
+
+<h4>Wijzig dit event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateEvent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CategoryID" class="control-label">Categorie</label>
+                <input asp-for="CategoryID" class="createEvent" value="" /> @*moet imput value hebben*@
+                <span asp-validation-for="CategoryID" class="text-danger"></span> @*moet dropdown list van categorieën hebben*@
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Naam</label><br />
+                <input asp-for="Name" class="createEvent" value="" /> @*moet imput value hebben*@
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Beschrijving</label>
+                <textarea asp-for="Description" class="createEvent" rows="5" value=""></textarea> @*moet imput value hebben*@
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Datum</label><br />
+                <input asp-for="Date" class="createEvent" value="" /> @*moet imput value hebben*@
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Locatie</label>
+                <input asp-for="Location" class="createEvent" value="" /> @*moet imput value hebben*@
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxCapacity" class="control-label">Maximale hoeveelheid bezoekers</label>
+                <input asp-for="MaxCapacity" class="createEvent" value="" /> @*moet imput value hebben*@
+                <span asp-validation-for="MaxCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Opslaan" class="Editbutton" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Events">Terug naar eventlist</a>
+</div>
+

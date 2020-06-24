@@ -51,12 +51,13 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "INSERT INTO event VALUES(@AccountID, @Catagory,@Name,@Description,@Date,@Location,@MaxCapacity); ";
+                conn.Open();
+                string query = "INSERT INTO event (AccountID, CategorieID, Name, Description, Date, Location, MaxCapacity) VALUES(@AccountID, @CategorieID,@Name,@Description,@Date,@Location,@MaxCapacity); ";
 
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@AccountID", E1.AccountID);
-                    command.Parameters.AddWithValue("@Catagory", E1.CategoryID);
+                    command.Parameters.AddWithValue("@CategorieID", E1.CategoryID);
                     command.Parameters.AddWithValue("@Name", E1.Name);
                     command.Parameters.AddWithValue("@Description", E1.Description);
                     command.Parameters.AddWithValue("@Date", E1.Date);
@@ -72,6 +73,7 @@ namespace StarRocks.Data.Handlers
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
+                conn.Open();
                 string query = "UPDATE werknemer SET Name = @Name, Description = @Description, Date=@Date,Location=@Location,MaxCapacity=@MaxCapacity WHERE ID=@ID; ";
                 using (MySqlCommand command = new MySqlCommand(query, conn))
                 {

@@ -1,0 +1,54 @@
+﻿@model StarRocks.Models.EventViewModel
+@using Microsoft.AspNetCore.Identity
+@using StarRocks.Data.Entities
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<h4>Event aanmaken</h4>
+<hr />
+<ul class="AdminNav">
+    <li class="AdminControl"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="Events">Events</a></li>
+    <li class="AdminControl" style="padding-top: 6px;"><a class="AdminLink" asp-area="" asp-controller="Event" asp-action="CreateEvent">Event aanmaken</a></li>
+</ul>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEvent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <input type="hidden" asp-for="AccountID" value="@UserManager.GetUserAsync(User).Result.Id" />
+            }
+
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Event naam</label>
+                <input asp-for="Name" class="createEvent" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Beschrijving</label>
+                <textarea asp-for="Description" class="createEvent" rows="5"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Datum en tijd</label>
+                <input asp-for="Date" class="createEvent" value="2020-01-01" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Locatie</label>
+                <input asp-for="Location" class="createEvent" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxCapacity" class="control-label">Maximale hoeveelheid bezoekers</label>
+                <input asp-for="MaxCapacity" class="createEvent" />
+                <span asp-validation-for="MaxCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Maak Event" class="Editbutton" asp-action="Create" />
+            </div>
+        </form>
+    </div>
+</div>
+

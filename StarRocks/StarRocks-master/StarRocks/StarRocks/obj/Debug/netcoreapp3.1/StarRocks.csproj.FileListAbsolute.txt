@@ -1336,7 +1336,9 @@ C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\St
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\StarRocks.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Account\Update.cshtml.g.cs
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\EventRegistration\Success.cshtml.g.cs
-C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\test.cshtml.g.cs
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Home\AccessDenied.cshtml.g.cs
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\Details.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\CreateEvent.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\Events.cshtml.g.cs
+C:\Users\joeps\Source\Repos\MarcMuller23\StarRocks\StarRocks\StarRocks-master\StarRocks\StarRocks\obj\Debug\netcoreapp3.1\Razor\Views\Event\UpdateEvent.cshtml.g.cs

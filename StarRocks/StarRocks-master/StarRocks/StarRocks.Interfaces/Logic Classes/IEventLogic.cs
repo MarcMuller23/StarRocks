@@ -8,7 +8,7 @@ namespace StarRocks.Interfaces.Logic_Classes
     {
         void CreateEvent(IEvent _event);
         IEnumerable<IEvent> GetAllEvents();
-        ICategorie_Interest UpdateEvent(IEvent _event);
+        IEvent UpdateEvent(IEvent _event);
         void DeleteEvent(int eventeId);
         IEvent GetById(IEvent _event);
     }

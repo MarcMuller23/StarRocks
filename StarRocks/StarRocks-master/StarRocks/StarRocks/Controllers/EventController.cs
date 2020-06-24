@@ -41,7 +41,7 @@ namespace StarRocks.Controllers
             return View(_events);
         }
 
-        public ActionResult Test()
+        public ActionResult Events()
         {
             var allEvents = _eventLogic.GetAllEvents();
             var _events = new List<EventViewModel>();
@@ -67,7 +67,7 @@ namespace StarRocks.Controllers
         public ActionResult Delete(int ID)
         {
             _eventLogic.DeleteEvent(ID);
-            return RedirectToAction("test");
+            return RedirectToAction("Events");
         }
 
         //Create in CRUD
@@ -133,6 +133,19 @@ namespace StarRocks.Controllers
             };
 
             return View(viewmodel);
+        }
+
+        public ActionResult CreateEvent()
+        {
+            var eventViewModel = new EventViewModel();
+            return View(eventViewModel);
+        }
+
+        public ActionResult UpdateEvent()
+        {
+            var _event = new EventViewModel(); //update niet
+            _eventLogic.GetById(_event);
+            return View(_event);
         }
     }
 }
